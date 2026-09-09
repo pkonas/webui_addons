@@ -1,0 +1,234 @@
+{
+  "name": "vut-tutor-einfra-server-v2.1.5-log-segmentation-fix-complete",
+  "adapter_version": "2.1.5",
+  "runtime_version": "1.26.2",
+  "engine_version": "2.0.2",
+  "created_utc": "2026-09-04T07:45:44+00:00",
+  "files": [
+    {
+      "path": "BUILD-TEST-REPORT.json",
+      "sha256": "73e2261efd75d17983489996e8c0f82646f5ccfd07ca68c6cd41d516551b97de",
+      "size": 2631
+    },
+    {
+      "path": "FINAL-VALIDATION.json",
+      "sha256": "b68ca2c6419f25a3421ecacedc4c4bdddd7e278c9d1a25df053ff45f280d5f75",
+      "size": 330
+    },
+    {
+      "path": "README.md",
+      "sha256": "3c58fd498f4fad43a01c5e4efbd50d7551a050239bef252f50b49e317ec8aade",
+      "size": 3281
+    },
+    {
+      "path": "TEST-RESULTS.md",
+      "sha256": "545c9ce2fd72b67a0f70ad60facfc13cceb365a1a869ef0fcaf3be40adb35f85",
+      "size": 1228
+    },
+    {
+      "path": "collect-vut-ai-tutor-einfra-diagnostics-v2.1.5.ps1",
+      "sha256": "9c9adc08a67f906230cb29a49c0e6fadee3fa5dc9a23e1a042c745e0cb49864d",
+      "size": 8584
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "34f8a3cf3725d7bfd009acea404042c02fdf06ed95c88f01617464a0404c331e",
+      "size": 1644
+    },
+    {
+      "path": "docs/DIAGNOSIS-BACKEND-TASK-READY.md",
+      "sha256": "1132057816237587e64f895bcf989677cd7f3845c232b5944bdcdd85c681f09e",
+      "size": 938
+    },
+    {
+      "path": "docs/DIAGNOSIS-LOG-RUN-SEGMENTATION-SELFTEST.md",
+      "sha256": "dd4306a010a1be55d9fe4bf497bbcf81ea717600fcf564cf1a9a52769b0300b1",
+      "size": 909
+    },
+    {
+      "path": "docs/DIAGNOSIS-ROUTE-STRATEGY-CONTRACT.md",
+      "sha256": "c14623f2cede16239531f33bacc9a65df54751a14a672b4d87fa4c7b46811a0c",
+      "size": 726
+    },
+    {
+      "path": "docs/DIAGNOSIS-SCHEDULED-TASK-BACKEND-RECOVERY.md",
+      "sha256": "1c6c6e963cac595aaa7551a5b1694792f9b22fac788f7c42a2fcbb1da0fe8eee",
+      "size": 1113
+    },
+    {
+      "path": "docs/DIAGNOSIS-TASKINFO-NULL-TIMESTAMPS.md",
+      "sha256": "277881ab5ed7acad12adc3d190c1ab1840cd0a90270732a6239cabc60258bcfd",
+      "size": 1159
+    },
+    {
+      "path": "docs/DIAGNOSIS-WINDOWS-POWERSHELL-PYTHON-C-QUOTING.md",
+      "sha256": "bf7951efe1cfa60c89349a1d8bc566cfd8cec19657a78e98e53a29f540d0d8d0",
+      "size": 1040
+    },
+    {
+      "path": "engine/README.md",
+      "sha256": "6581aea282d8a060bcc1d696cb36c91e146857cf584101863e625fe83cac1a7b",
+      "size": 11997
+    },
+    {
+      "path": "engine/TEST-RESULTS.md",
+      "sha256": "1628925f7dd12edb0b55d84ad0553d2aa9810f78eda6c4101d088b43e44c23c4",
+      "size": 552
+    },
+    {
+      "path": "engine/install-vut-ai-tutor-universal-v2.0.2.ps1",
+      "sha256": "6531e22d4163f4c7e448aa2d97ae04b5ba7f7d5a4c62fa366a11fe68d93f903f",
+      "size": 962473
+    },
+    {
+      "path": "engine/verify-vut-ai-tutor-universal-v2.0.2.ps1",
+      "sha256": "4b808b0fb94e978dfa31a1c17a7740abf1d07b6d7c7d0ded6cf39b36fc35f8c6",
+      "size": 962472
+    },
+    {
+      "path": "engine/vut_ai_tutor_universal_installer_v2.0.2.py",
+      "sha256": "dbc9cde8c5f4f3830c15861c5ca111e50c82a48539e9209d4bcd6beb9578d4cc",
+      "size": 83962
+    },
+    {
+      "path": "install-vut-ai-tutor-einfra-windows-server-v2.1.5.ps1",
+      "sha256": "1ab44005a8926de35a372b231b90806d49bd14ce9cf68f01f3b6f50fcdf99c4a",
+      "size": 1029113
+    },
+    {
+      "path": "recover-vut-ai-tutor-einfra-backend-v2.1.5.ps1",
+      "sha256": "8d47eab5d7f1b39e58484c39886ec45d45a58ccb768a755bf0f2677d37b4e887",
+      "size": 1725
+    },
+    {
+      "path": "reference/Install-EInfraOpenWebUI-v2.4.5.ps1",
+      "sha256": "e72fc3e54271a2e74d4b6cf831c02f37e694191da488811f2a2f32ff9361b772",
+      "size": 293748
+    },
+    {
+      "path": "runtime/vut_ai_tutor_bootstrap_v1.26.2_server_desktop_windows_mock_transport_complete.py",
+      "sha256": "0110a99c6736301c66122121f7da67c8271bb71db7e81b3cc6c5bcae97521892",
+      "size": 1010201
+    },
+    {
+      "path": "runtime/vut_ai_tutor_manager_v1.26.2_server_desktop_windows_mock_transport_complete.py",
+      "sha256": "c6cbdfc86fddf414bbd6efd04e7901fc09d8f5277774662b98c00597a00abd22",
+      "size": 102925
+    },
+    {
+      "path": "runtime/vut_ai_tutor_pipe_v1.26.2_server_desktop_windows_mock_transport_complete.py",
+      "sha256": "d7809efd8b046bd6dd4f127aaf8500c0568d783b6c1befe51b3ac3dc5167a76e",
+      "size": 4781
+    },
+    {
+      "path": "test-output/adapter-python-helpers.txt",
+      "sha256": "544e80c8446990f386667f8cd1b145ce9dd57457351c50437ff6e0de3888ab26",
+      "size": 185
+    },
+    {
+      "path": "test-output/adapter-recovery.txt",
+      "sha256": "d9514ef26f9a7433d2e3eee300e350182a88eed8a0c9c314947485f8eca42ba7",
+      "size": 261
+    },
+    {
+      "path": "test-output/log-segmentation.txt",
+      "sha256": "7d36f4e4a0e2d541808bf6a28098875ecaa93a714295cadb34d7bd494c8bc279",
+      "size": 293
+    },
+    {
+      "path": "test-output/package-static.txt",
+      "sha256": "e0ba878a363b4f04f8402ea2a07f3325d9cae1084a36a93b48b695252ed64cee",
+      "size": 286
+    },
+    {
+      "path": "test-output/powershell-here-strings.txt",
+      "sha256": "d7dfcf6b312f2fec0677a459b82a7e0e61a2f7c8191f5c7129239a09dcc359fa",
+      "size": 114
+    },
+    {
+      "path": "test-output/powershell-lexical-balance.txt",
+      "sha256": "166d3454bd35b426f5da2ebce387637e490b0a4b3a9bb31a4eb11415819b5797",
+      "size": 665
+    },
+    {
+      "path": "test-output/powershell-python-invocation.txt",
+      "sha256": "23c5014fc30c6117224a9f5bd983b6a070a4fe3edff200c1fa21d180e58be327",
+      "size": 189
+    },
+    {
+      "path": "test-output/python-host-probe.txt",
+      "sha256": "7e06a2e4b65ea7ad48b3a33e1694b19808e3f46a6bdaee630e415e2f2888dfea",
+      "size": 122
+    },
+    {
+      "path": "test-output/runtime-health.txt",
+      "sha256": "f32ecaeda49fd4b98e4b4bd57d516b60b92facf651c91180f7ce7fd3fe5e0573",
+      "size": 477
+    },
+    {
+      "path": "test-output/taskinfo-null.txt",
+      "sha256": "24bf0014cec7c416a0c62f3e87938ba89d743b593004900524e73b6ae9b0b3a0",
+      "size": 156
+    },
+    {
+      "path": "test-vut-ai-tutor-einfra-windows-server-v2.1.5.ps1",
+      "sha256": "ecd8008601ca10f320a91810dc62d6c142579c431eb88c4614abbe082fba9e0d",
+      "size": 8879
+    },
+    {
+      "path": "tests/python-host-probe-v2.1.5.py",
+      "sha256": "229eea0cd244decce19f3744e097a7a59f80cf9641bf7be8c1b040a7e321f3d6",
+      "size": 502
+    },
+    {
+      "path": "tests/test-adapter-python-helpers-v2.1.5.py",
+      "sha256": "e9c1e5ece93632b5c8ce0da0ce9271f4807882cc1cbe09544dea703d6970a0bc",
+      "size": 3059
+    },
+    {
+      "path": "tests/test-adapter-recovery-contract-v2.1.5.py",
+      "sha256": "21dc7187b1a366dc138e7a62405ec15b79641137188be384bc31208528bfa823",
+      "size": 2591
+    },
+    {
+      "path": "tests/test-log-segmentation-contract-v2.1.5.py",
+      "sha256": "561c08a0c80c840b6ec3564a643914c6b15c642db15ad5c28a6ac92a4613f7fe",
+      "size": 3867
+    },
+    {
+      "path": "tests/test-package-static-v2.1.5.py",
+      "sha256": "74c46b95d4055cbbb828a02381196671c2ef7bacd51c2e1b396e1ed47addc615",
+      "size": 4794
+    },
+    {
+      "path": "tests/test-powershell-here-string-contract-v2.1.5.py",
+      "sha256": "181b848e852dc54ec2d2d9e4a61560be95894fb9f0d45f690256a0a2f7d08f59",
+      "size": 1597
+    },
+    {
+      "path": "tests/test-powershell-lexical-balance-v2.1.5.py",
+      "sha256": "fcb541c72750da2630b867d0918d4276832003d320094679400eb5b41a777465",
+      "size": 5356
+    },
+    {
+      "path": "tests/test-powershell-python-invocation-contract-v2.1.5.py",
+      "sha256": "0bca46a67a990261f61db9f7ae0902fc474343d29f5b01969f450dbe035ff62f",
+      "size": 2770
+    },
+    {
+      "path": "tests/test-runtime-health-contract-v2.0.2.py",
+      "sha256": "dcc891999a954ca7a47a081490738584709a2217d14072b221cebcb8790bf410",
+      "size": 6193
+    },
+    {
+      "path": "tests/test-task-diagnostic-null-contract-v2.1.5.py",
+      "sha256": "75efc49cf5af32ed0159cc8fcf837d50fa3497bafa548ea43956ca2da237e6ee",
+      "size": 1787
+    },
+    {
+      "path": "verify-vut-ai-tutor-einfra-windows-server-v2.1.5.ps1",
+      "sha256": "abf6698ece6f1e5c196ca31e6a20e7c182ffe7725bf28baec888d25577ba0dba",
+      "size": 2029
+    }
+  ]
+}

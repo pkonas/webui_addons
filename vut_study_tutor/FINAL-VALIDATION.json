@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "adapter_version": "2.1.5",
+  "runtime_version": "1.26.2",
+  "engine_version": "2.0.2",
+  "log_segmentation_fix": true,
+  "backend_run_start_pattern_cases": 8,
+  "previous_run_isolation": true,
+  "latest_tutor_failure_detection": true,
+  "runtime_unchanged": true,
+  "native_windows_validation_required": true
+}

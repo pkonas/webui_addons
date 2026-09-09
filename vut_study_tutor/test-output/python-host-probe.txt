@@ -1,0 +1,1 @@
+{"executable": "/opt/pyvenv/bin/python", "implementation": "CPython", "minimum": "3.11", "ok": true, "version": "3.13.5"}

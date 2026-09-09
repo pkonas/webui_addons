@@ -1,0 +1,1 @@
+{'ok': True, 'powershell_files': 7, 'embedded_engine_exact': True, 'embedded_engine_sha256': '6531e22d4163f4c7e448aa2d97ae04b5ba7f7d5a4c62fa366a11fe68d93f903f', 'common_parameter_collisions': 0, 'unsafe_variable_colon_findings': 0, 'utf8_bom_crlf': True, 'inline_python_c_findings': 0}

@@ -1,0 +1,78 @@
+{
+  "adapter_version": "2.1.5",
+  "runtime_version": "1.26.2",
+  "engine_version": "2.0.2",
+  "build_timestamp_utc": "2026-09-04T07:45:44+00:00",
+  "fix": "backend log run-header segmentation accepts bare, absolute and quoted Open WebUI executable paths",
+  "root_cause": "Adapter 2.1.4 required one or more characters immediately before open-webui in the start-header command; a valid bare open-webui.exe command was not recognized, so the preceding run leaked into the self-test selection.",
+  "tests": {
+    "python-source-compilation": {
+      "passed": true,
+      "files": 14
+    },
+    "package-static": {
+      "passed": true,
+      "output": "test-output/package-static.txt"
+    },
+    "powershell-python-invocation": {
+      "passed": true,
+      "output": "test-output/powershell-python-invocation.txt"
+    },
+    "adapter-python-helpers": {
+      "passed": true,
+      "output": "test-output/adapter-python-helpers.txt"
+    },
+    "powershell-here-strings": {
+      "passed": true,
+      "output": "test-output/powershell-here-strings.txt"
+    },
+    "powershell-lexical-balance": {
+      "passed": true,
+      "output": "test-output/powershell-lexical-balance.txt"
+    },
+    "adapter-recovery": {
+      "passed": true,
+      "output": "test-output/adapter-recovery.txt"
+    },
+    "log-segmentation": {
+      "passed": true,
+      "output": "test-output/log-segmentation.txt"
+    },
+    "taskinfo-null": {
+      "passed": true,
+      "output": "test-output/taskinfo-null.txt"
+    },
+    "runtime-health": {
+      "passed": true,
+      "output": "test-output/runtime-health.txt"
+    },
+    "python-host-probe": {
+      "passed": true,
+      "output": "test-output/python-host-probe.txt"
+    }
+  },
+  "contracts": {
+    "shared_backend_run_start_pattern": true,
+    "bare_executable_header_supported": true,
+    "absolute_path_header_supported": true,
+    "quoted_path_header_supported": true,
+    "foreign_executable_rejected": true,
+    "previous_run_tutor_error_isolated": true,
+    "latest_tutor_failure_detected": true,
+    "truncated_excerpt_retains_header": true,
+    "embedded_engine_exact": true,
+    "runtime_1_26_2_unchanged": true,
+    "reference_server_installer_unchanged": true,
+    "utf8_bom_crlf_production_powershell": true
+  },
+  "not_executed_here": {
+    "native_windows_powershell_5_1": true,
+    "live_pelton_task_scheduler": true,
+    "live_openwebui_functions_installation": true
+  },
+  "artifact_names": {
+    "zip": "vut-tutor-einfra-2.1.5.zip",
+    "tar_gz": "vut-tutor-einfra-2.1.5.tar.gz",
+    "standalone": "install-vut-tutor-einfra-server-v2.1.5-log-segmentation-fix-complete.ps1"
+  }
+}

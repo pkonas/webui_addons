@@ -1,0 +1,1 @@
+{"adapter": "2.1.5", "checked_powershell_files": 5, "file_based_host_probe": true, "file_based_sqlite_selftest": true, "inline_python_c_findings": 0, "ok": true, "probe_version": "3.13.5"}

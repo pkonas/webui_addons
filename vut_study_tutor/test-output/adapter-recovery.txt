@@ -1,0 +1,1 @@
+{'ok': True, 'adapter': '2.1.5', 'required_symbols': 15, 'stop_sequence': ['Stop-ScheduledTask', 'Stop-EInfraBackendProcesses', 'Wait-BackendPortReleased', 'Wait-EInfraBackendTaskQuiescent'], 'task_quiescence_before_start': True, 'fail_fast_diagnostics': True}

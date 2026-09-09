@@ -1,0 +1,1 @@
+{'ok': True, 'adapter': '2.1.5', 'null_last_run_time': 'covered', 'null_next_run_time': 'covered', 'missing_properties': 'covered', 'collector': 'covered'}

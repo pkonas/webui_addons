@@ -1,0 +1,203 @@
+{
+  "built_at": "2026-09-18",
+  "source_archives": [
+    {
+      "filename": "vut-ai-tutor-universal-v2.3.1-runtime-v1.26.2-complete(1).zip",
+      "sha256": "c91eebb7d40d219f8fafe58176bcfd8ad9aa0b97842df4b563fa7dd52c7e25ca"
+    },
+    {
+      "filename": "vut-ai-tutor-desktop-pdf-hotfix-v1.26.3.zip",
+      "sha256": "8769685375c0f95fecf1946ea72da6927c272f262aca2dd22e117b6e1a01c781"
+    }
+  ],
+  "original_files_represented": 37,
+  "original_file_map": [
+    {
+      "original_path": "BUILD-TEST-REPORT.json",
+      "original_sha256": "63d936d33bc9cd9f66f9d7aabcfd8887a62b599061447c098b46900fc4261769",
+      "integrated_path": "BUILD-TEST-REPORT.json"
+    },
+    {
+      "original_path": "PACKAGE-MANIFEST.json",
+      "original_sha256": "59c5d97a547d21f8b0ae6bd4e5335ba568c6260b85dd1603bbe7ac336e5a7f91",
+      "integrated_path": "PACKAGE-MANIFEST.json"
+    },
+    {
+      "original_path": "README.md",
+      "original_sha256": "db91b6e2c4d96d1b975f935215793fb17608e67675f89ab67418a5319410d39d",
+      "integrated_path": "README.md"
+    },
+    {
+      "original_path": "RELEASE-CONTRACT.json",
+      "original_sha256": "4c385473d077ef494a094d08be62b455c91ccf3a1e51c789c582c177edc66431",
+      "integrated_path": "RELEASE-CONTRACT.json"
+    },
+    {
+      "original_path": "SHA256SUMS.txt",
+      "original_sha256": "c9fb49ab8efc60952c54af02d96827d29afb675b7067862f4809fc8c5c11aa56",
+      "integrated_path": "SHA256SUMS.txt"
+    },
+    {
+      "original_path": "TEST-RESULTS.md",
+      "original_sha256": "9db9745a5c4ee1e2311ae7787be9c631aab151242eac90bb40c20263a11c9907",
+      "integrated_path": "TEST-RESULTS.md"
+    },
+    {
+      "original_path": "adapters/desktop/recover-openwebui-desktop-v1.26.2-complete.ps1",
+      "original_sha256": "a85088cb5ec1bdaa3751f728651c341266367b3e67dafd04b3e7cf59bcccb50e",
+      "integrated_path": "adapters/desktop/recover-openwebui-desktop-v1.26.3-complete.ps1"
+    },
+    {
+      "original_path": "adapters/desktop/repair-install-vut-ai-tutor-v1.26.2-server-desktop-windows-mock-transport-complete.ps1",
+      "original_sha256": "d41fdf8d2e18b96ca9c9f66a3f877d8f35b1b20ac424bf6f6349a52a2e470299",
+      "integrated_path": "adapters/desktop/repair-install-vut-ai-tutor-v1.26.3-server-desktop-windows-mock-transport-complete.ps1"
+    },
+    {
+      "original_path": "adapters/desktop/verify-vut-ai-tutor-v1.26.2-server-desktop-windows-mock-transport-complete.ps1",
+      "original_sha256": "b38b7cdce67526d01ccf3edd6b0562c8e1d7f71c8436337916c2dda742475e6d",
+      "integrated_path": "adapters/desktop/verify-vut-ai-tutor-v1.26.3-server-desktop-windows-mock-transport-complete.ps1"
+    },
+    {
+      "original_path": "adapters/einfra/collect-vut-ai-tutor-einfra-diagnostics-v2.1.5.ps1",
+      "original_sha256": "9c9adc08a67f906230cb29a49c0e6fadee3fa5dc9a23e1a042c745e0cb49864d",
+      "integrated_path": "adapters/einfra/collect-vut-ai-tutor-einfra-diagnostics-v2.1.6.ps1"
+    },
+    {
+      "original_path": "adapters/einfra/install-vut-ai-tutor-einfra-windows-server-v2.1.5.ps1",
+      "original_sha256": "1ab44005a8926de35a372b231b90806d49bd14ce9cf68f01f3b6f50fcdf99c4a",
+      "integrated_path": "adapters/einfra/install-vut-ai-tutor-einfra-windows-server-v2.1.6.ps1"
+    },
+    {
+      "original_path": "adapters/einfra/recover-vut-ai-tutor-einfra-backend-v2.1.5.ps1",
+      "original_sha256": "8d47eab5d7f1b39e58484c39886ec45d45a58ccb768a755bf0f2677d37b4e887",
+      "integrated_path": "adapters/einfra/recover-vut-ai-tutor-einfra-backend-v2.1.6.ps1"
+    },
+    {
+      "original_path": "adapters/einfra/verify-vut-ai-tutor-einfra-windows-server-v2.1.5.ps1",
+      "original_sha256": "abf6698ece6f1e5c196ca31e6a20e7c182ffe7725bf28baec888d25577ba0dba",
+      "integrated_path": "adapters/einfra/verify-vut-ai-tutor-einfra-windows-server-v2.1.6.ps1"
+    },
+    {
+      "original_path": "docs/ARCHITECTURE.md",
+      "original_sha256": "b95c7cae07cdd28cd48404ccb1a4b652eaa5988a784d5a8cde462df91bc6ddc2",
+      "integrated_path": "docs/ARCHITECTURE.md"
+    },
+    {
+      "original_path": "docs/AUDIT-FIXES-v2.3.1.md",
+      "original_sha256": "92b3d5bcf52d971311a1f6acd951bac6bea9c389699a38a8080493d1689b8b65",
+      "integrated_path": "docs/AUDIT-FIXES-v2.3.1.md"
+    },
+    {
+      "original_path": "docs/COMPATIBILITY.md",
+      "original_sha256": "6666a455497037cce3e16a138ddf63648a975e35ffc244400027bb4963cd5ad9",
+      "integrated_path": "docs/COMPATIBILITY.md"
+    },
+    {
+      "original_path": "docs/OFFICIAL-DESKTOP-CONTRACT.md",
+      "original_sha256": "4e24860290872e96785472fdaac3ec66cffb19e4b068a3acd91d917542286f26",
+      "integrated_path": "docs/OFFICIAL-DESKTOP-CONTRACT.md"
+    },
+    {
+      "original_path": "docs/SECURITY.md",
+      "original_sha256": "48a3033a93a7d318fa57c92dd68f37f2aa0396a6352220a35b70fadf995b15ba",
+      "integrated_path": "docs/SECURITY.md"
+    },
+    {
+      "original_path": "docs/UPGRADE-RUNBOOK.md",
+      "original_sha256": "41c2fd405a615a8a770b17a843087e4132c0511225ca8097141618518924f739",
+      "integrated_path": "docs/UPGRADE-RUNBOOK.md"
+    },
+    {
+      "original_path": "engine/vut_ai_tutor_universal_installer_v2.0.3.py",
+      "original_sha256": "82fa2769687761d85450c44636d46ac398ba4ae7351358502011a70b7720c1ae",
+      "integrated_path": "engine/vut_ai_tutor_universal_installer_v2.0.4.py"
+    },
+    {
+      "original_path": "install-vut-ai-tutor-universal-v2.3.1.ps1",
+      "original_sha256": "da8499596761edb1849f4ceb32e13b591258760de1622f1565555b0bf2f43edc",
+      "integrated_path": "install-vut-ai-tutor-universal-v2.3.2.ps1"
+    },
+    {
+      "original_path": "install-vut-ai-tutor-universal-v2.3.1.py",
+      "original_sha256": "c3191b97959d109809cb7c70c8ce87f022eca107b18c00855b8844457a7bd0c8",
+      "integrated_path": "install-vut-ai-tutor-universal-v2.3.2.py"
+    },
+    {
+      "original_path": "install-vut-ai-tutor-universal-v2.3.1.sh",
+      "original_sha256": "827f0163e3277c4cc09c1c8430831e08840c99561b564a0380b2e8454e9f6d7e",
+      "integrated_path": "install-vut-ai-tutor-universal-v2.3.2.sh"
+    },
+    {
+      "original_path": "runtime/vut_ai_tutor_bootstrap_v1.26.2_server_desktop_windows_mock_transport_complete.py",
+      "original_sha256": "0110a99c6736301c66122121f7da67c8271bb71db7e81b3cc6c5bcae97521892",
+      "integrated_path": "runtime/vut_ai_tutor_bootstrap_v1.26.3_server_desktop_windows_mock_transport_complete.py"
+    },
+    {
+      "original_path": "runtime/vut_ai_tutor_manager_v1.26.2_server_desktop_windows_mock_transport_complete.py",
+      "original_sha256": "1460a8e78faef013319d08c1b33f3c6f8f8180ab00a3da9650c36c113cb0d1f9",
+      "integrated_path": "runtime/vut_ai_tutor_manager_v1.26.3_server_desktop_windows_mock_transport_complete.py"
+    },
+    {
+      "original_path": "runtime/vut_ai_tutor_pipe_v1.26.2_server_desktop_windows_mock_transport_complete.py",
+      "original_sha256": "d7809efd8b046bd6dd4f127aaf8500c0568d783b6c1befe51b3ac3dc5167a76e",
+      "integrated_path": "runtime/vut_ai_tutor_pipe_v1.26.3_server_desktop_windows_mock_transport_complete.py"
+    },
+    {
+      "original_path": "test-vut-ai-tutor-universal-v2.3.1-windows.ps1",
+      "original_sha256": "8a4ede15f23e17f954b4151a589ed5ce4bc01152586272ea9754210e5bfcd1aa",
+      "integrated_path": "test-vut-ai-tutor-universal-v2.3.2-windows.ps1"
+    },
+    {
+      "original_path": "test-vut-ai-tutor-universal-v2.3.1.sh",
+      "original_sha256": "7baf71d6b57694293bf0d70862c34b1c1384e5168294eb23dbc96fe436ad2a89",
+      "integrated_path": "test-vut-ai-tutor-universal-v2.3.2.sh"
+    },
+    {
+      "original_path": "tests/mock_openwebui_api_v2.3.1.py",
+      "original_sha256": "cd66ca01c7bba61c726c5b0c52dc3a814681f9043d194636a3c7832150631e10",
+      "integrated_path": "tests/mock_openwebui_api_v2.3.2.py"
+    },
+    {
+      "original_path": "tests/test_api_platforms_e2e_v2.3.1.py",
+      "original_sha256": "3c184d4b7d1ec26bd84c3925bc74d1db7c0cc11516e9fdcb2f685f4c5152c0ba",
+      "integrated_path": "tests/test_api_platforms_e2e_v2.3.2.py"
+    },
+    {
+      "original_path": "tests/test_cli_wrappers_e2e_v2.3.1.py",
+      "original_sha256": "92497cd023810804435aeb3e8dad8f67b0d74ad56843dd152898ee23ac86bba2",
+      "integrated_path": "tests/test_cli_wrappers_e2e_v2.3.2.py"
+    },
+    {
+      "original_path": "tests/test_desktop_official_lifecycle_v2.3.1.py",
+      "original_sha256": "88b8f26d294643cb705af9b7abdde1364ca6ca8913c58f5f40e834ea7a89b250",
+      "integrated_path": "tests/test_desktop_official_lifecycle_v2.3.2.py"
+    },
+    {
+      "original_path": "tests/test_package_contract_v2.3.1.py",
+      "original_sha256": "e0800c48e7b3551f85a87543a012da7600880d2104904c6ef08247b6fbb5581e",
+      "integrated_path": "tests/test_package_contract_v2.3.2.py"
+    },
+    {
+      "original_path": "tests/test_platform_detection_v2.3.1.py",
+      "original_sha256": "c93cad1cd885c2a174f27ebdc3292eaa8a85442973d7c91afd48b4882abf8807",
+      "integrated_path": "tests/test_platform_detection_v2.3.2.py"
+    },
+    {
+      "original_path": "tests/test_powershell_lexical_v2.3.1.py",
+      "original_sha256": "e9dded3b90111d30c11a1631a3edd3832cd2163bd41cee12434fa22509cfb564",
+      "integrated_path": "tests/test_powershell_lexical_v2.3.2.py"
+    },
+    {
+      "original_path": "verify-vut-ai-tutor-universal-v2.3.1.ps1",
+      "original_sha256": "813a7e0d24a759255aa1a0fe940ee7bed32050bb9b2fd694936093637f85e1fe",
+      "integrated_path": "verify-vut-ai-tutor-universal-v2.3.2.ps1"
+    },
+    {
+      "original_path": "verify-vut-ai-tutor-universal-v2.3.1.sh",
+      "original_sha256": "176834b3438298949dfd054f57aeb9b32996ac3b4e98f8564d9c4e65718cb02a",
+      "integrated_path": "verify-vut-ai-tutor-universal-v2.3.2.sh"
+    }
+  ],
+  "runtime_marker": "VUT-AI-TUTOR-1.26.3-SERVER-DESKTOP-WINDOWS-MOCK-TRANSPORT-COMPLETE",
+  "desktop_lifecycle_revision_preserved": "2.3.1-official-desktop-lifecycle-r1"
+}

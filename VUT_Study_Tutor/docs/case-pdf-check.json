@@ -1,0 +1,21 @@
+{
+  "file": "numericke_metody_2.pdf",
+  "bytes": 1452819,
+  "sha256": "c134aed0f69bbc6903a9781411b59039cfc6f3dfd5d22a8c7cc998396e90bc40",
+  "pypdf": {
+    "pages": 129,
+    "text_characters": 185778,
+    "text_pages": 129,
+    "encrypted": false
+  },
+  "pdfium": {
+    "rendered_pages": 129,
+    "scale": 1.0
+  },
+  "pymupdf": {
+    "pages": 129,
+    "text_characters": 187075,
+    "is_repaired": false
+  },
+  "elapsed_seconds": 2.71
+}

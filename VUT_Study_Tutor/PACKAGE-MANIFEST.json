@@ -1,0 +1,393 @@
+{
+  "schema": 1,
+  "installer_version": "2.3.4",
+  "runtime_version": "1.26.5",
+  "api_engine_version": "2.0.6",
+  "files": [
+    {
+      "path": "BUILD-TEST-REPORT.json",
+      "sha256": "27280dd1d22f15470a9b9279b6372f6da8a49f367b3e69c33b7edd2fce34b4ee",
+      "bytes": 3481
+    },
+    {
+      "path": "README.md",
+      "sha256": "5b0b3ecd897db6edf622e154341ba6a1159c27a5ff27df9537cfd2900625e5bc",
+      "bytes": 17208
+    },
+    {
+      "path": "RELEASE-CONTRACT.json",
+      "sha256": "060abb8edf833d53ec6fc2df29ab056a5eeeb9e87dd77badabb497c681a8e17d",
+      "bytes": 1587
+    },
+    {
+      "path": "TEST-RESULTS.md",
+      "sha256": "e3a80f95ea741bd2c09a54411f5aa5ac18e19793884b2ded364080361665d6bc",
+      "bytes": 5953
+    },
+    {
+      "path": "adapters/desktop/recover-openwebui-desktop-v1.26.5-complete.ps1",
+      "sha256": "eac8b057f6e28f36e5d4b6dbd711dd2936f93d68cc1ce72c8086a2926396764f",
+      "bytes": 501857
+    },
+    {
+      "path": "adapters/desktop/repair-install-vut-ai-tutor-v1.26.5-server-desktop-windows-mock-transport-complete.ps1",
+      "sha256": "dd2dfd552ed54f963389e2ac90a91f27e8fbb280c3c88cc59f14c3d83e3c4a03",
+      "bytes": 501969
+    },
+    {
+      "path": "adapters/desktop/verify-vut-ai-tutor-v1.26.5-server-desktop-windows-mock-transport-complete.ps1",
+      "sha256": "9cd08fb74d669e052625fbd706388a312696e2af7d416ba8cdb7df2745008581",
+      "bytes": 501876
+    },
+    {
+      "path": "adapters/einfra/api-wrapper-v2.0.6.ps1",
+      "sha256": "f8f3d28981da8cf2866bd71d4551291a589c290ebd5ef35f764601cacb092937",
+      "bytes": 984709
+    },
+    {
+      "path": "adapters/einfra/collect-vut-ai-tutor-einfra-diagnostics-v2.1.8.ps1",
+      "sha256": "53306e7c435aed6eedb494b59cd1ab8290ed778f4ac044a9810a98d6bbcc4f4e",
+      "bytes": 8584
+    },
+    {
+      "path": "adapters/einfra/install-vut-ai-tutor-einfra-windows-server-v2.1.8.ps1",
+      "sha256": "f1b8f0fd5b5ff403e2bdb3b74402ba52eb58a8e3dd2b82cdce39e48698ef5ced",
+      "bytes": 1051781
+    },
+    {
+      "path": "adapters/einfra/recover-vut-ai-tutor-einfra-backend-v2.1.8.ps1",
+      "sha256": "eb5085935d3565aa8e1d1685af3ce6d3ff040b51dcd678ac3c19fa531c03c360",
+      "bytes": 1725
+    },
+    {
+      "path": "adapters/einfra/verify-vut-ai-tutor-einfra-windows-server-v2.1.8.ps1",
+      "sha256": "bdd8906672d55913242294f94c353fa49a54bc84160a67419031aa77e2fc1368",
+      "bytes": 2029
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "0e08d024e49c6b48cc6c0066bebc90aa7b2092196ee4727c7749eeea0ffd9ae9",
+      "bytes": 2472
+    },
+    {
+      "path": "docs/AUDIT-FIXES-v2.3.1.md",
+      "sha256": "92b3d5bcf52d971311a1f6acd951bac6bea9c389699a38a8080493d1689b8b65",
+      "bytes": 1181
+    },
+    {
+      "path": "docs/CANVAS-LAYOUT-FIX-v2.3.4.md",
+      "sha256": "7aaf37c226f3f027a61aacbf4bd4968974dadbd6202fad319cf591521857a6ee",
+      "bytes": 5119
+    },
+    {
+      "path": "docs/CANVAS-LAYOUT-PROVENANCE.json",
+      "sha256": "5da482b4df00741a033c48ab50dc7cd0d9e0f67bc8d06600813a5a6f46c7b7c1",
+      "bytes": 57877
+    },
+    {
+      "path": "docs/COMPATIBILITY.md",
+      "sha256": "c82c91cb8f5e796928720033e976c9eb2603aed13b937d038774f39c16ae1a1e",
+      "bytes": 1475
+    },
+    {
+      "path": "docs/INTEGRATION-PROVENANCE.json",
+      "sha256": "c2acebe77e502f6ec7a450f3e85e09bfb40ec22f05e3d275610a9fea523be18a",
+      "bytes": 9845
+    },
+    {
+      "path": "docs/OFFICIAL-DESKTOP-CONTRACT.md",
+      "sha256": "5bcd2047d3d82ed116bb98e2555e42ab4abc3add8f807350fa3b4186e494b8da",
+      "bytes": 1691
+    },
+    {
+      "path": "docs/PDF-HOTFIX-INTEGRATION-v2.3.2.md",
+      "sha256": "bcc08578d950a00d6a7131a48dee45fd9e01cb24b2343c8a631dcacb44936a8c",
+      "bytes": 6468
+    },
+    {
+      "path": "docs/PDF-SOURCE-RECOVERY-v2.3.3.md",
+      "sha256": "28a25206ea21ea7e78bca369ef62d009ed56f294e35561f2089882338ed6d667",
+      "bytes": 4973
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "sha256": "06fbcdb75078b8f43e93a2f75d78ab6ff33c3be39de97306eb72aab632faadd5",
+      "bytes": 984
+    },
+    {
+      "path": "docs/SOURCE-RECOVERY-PROVENANCE.json",
+      "sha256": "39567917500438e30acc63c38846e65dff8cb3314e3c961d8c2c39a1ce6aef7f",
+      "bytes": 58797
+    },
+    {
+      "path": "docs/UPGRADE-RUNBOOK.md",
+      "sha256": "dafc420318bc3f7862d9cbc783a4dc824086b0e97bd2d69fe2d9a83a07c61e90",
+      "bytes": 2394
+    },
+    {
+      "path": "docs/canvas-browser-metrics.json",
+      "sha256": "d5e2f14b8c7eb34298343c6f1314f2d2e8afc542f915c4de13dbcc2763c33519",
+      "bytes": 624
+    },
+    {
+      "path": "docs/canvas-health-smoke.json",
+      "sha256": "f174fcfe81818b116ec9b3a1e5fbf1bb032b2dc16accb36f352bc3fca2324be6",
+      "bytes": 629
+    },
+    {
+      "path": "docs/canvas-panel-bridge-v1.26.4-to-v1.26.5.patch",
+      "sha256": "32b8009e5d537bcc1ecef66b1112806225f535e3e58bd9f3c52919014fbdc608",
+      "bytes": 23488
+    },
+    {
+      "path": "docs/canvas-panel-bridge.js",
+      "sha256": "196b0236f70da1f37efa28a29e4f3ea2f6023c1988d53e382289127497f796b6",
+      "bytes": 25212
+    },
+    {
+      "path": "docs/canvas.pdf-hotfix.js",
+      "sha256": "d3e9484e2d54e755b6d453a37ff28a8aa9c198812ae66a045fd355f4c35afd97",
+      "bytes": 222884
+    },
+    {
+      "path": "docs/case-after.json",
+      "sha256": "6ce0f6f25ab72662a449a65017ec03bf2459e4ac1899e98f606c5aa06a450abd",
+      "bytes": 414
+    },
+    {
+      "path": "docs/case-before.json",
+      "sha256": "9d74f8db32e0df0e68d6eda129d9c0850dc3e7206c25de5be19ead082d42acad",
+      "bytes": 651
+    },
+    {
+      "path": "docs/case-pdf-check.json",
+      "sha256": "cb7cc0c5309837a88d13ad4f1e481f11cb867e97f0f0a8403d808c8f445607a7",
+      "bytes": 435
+    },
+    {
+      "path": "docs/history/v2.3.2/BUILD-TEST-REPORT.json",
+      "sha256": "4b7cf09e952638249bda735841e17fd35a3af23fdba86cd0bc3255a3719a066f",
+      "bytes": 3507
+    },
+    {
+      "path": "docs/history/v2.3.2/TEST-RESULTS.md",
+      "sha256": "8215cfb76f57b181b25f88620355a64b1f2cf63124244eba7e6342da49c2c5f7",
+      "bytes": 3266
+    },
+    {
+      "path": "docs/history/v2.3.2/test-logs/api-platforms.log",
+      "sha256": "aeec7cdcca985890ebf020e8da697bc3ce88adaf0fbb6389722141e019f24e0a",
+      "bytes": 844
+    },
+    {
+      "path": "docs/history/v2.3.2/test-logs/cli-wrappers.log",
+      "sha256": "c540eac0c25b3f4811ad5affaf357bae7e28d20cb3e83093687dd0e4244a6ab9",
+      "bytes": 132
+    },
+    {
+      "path": "docs/history/v2.3.2/test-logs/integration.log",
+      "sha256": "3f6226b28097d7882f7ceb9a3df2c26ec34f3a16737e784a5343bf86a51babbb",
+      "bytes": 1855
+    },
+    {
+      "path": "docs/history/v2.3.2/test-logs/pdf-backend.log",
+      "sha256": "d57b33a432540fa674bb1ef8399b436e572368c43fa71e13b9629cfbe61aad8b",
+      "bytes": 4606
+    },
+    {
+      "path": "docs/history/v2.3.2/test-logs/pdf-installer.log",
+      "sha256": "290eb5151e0555cdb9475447dc02f1ff8afac1c4200228b1976598b2f1cb45b2",
+      "bytes": 435
+    },
+    {
+      "path": "docs/history/v2.3.2/test-logs/pdf-javascript.log",
+      "sha256": "6ea61e8a4892e99f53acb03365427bf1c103bc9f77643b4c93f2a9e8f44aad41",
+      "bytes": 1231
+    },
+    {
+      "path": "docs/history/v2.3.3/BUILD-TEST-REPORT.json",
+      "sha256": "7816c4c0e88a9637eb883999bd8b17bcbe1497adf1edad57a1ff6a3c5c2bb6e0",
+      "bytes": 4619
+    },
+    {
+      "path": "docs/history/v2.3.3/README.md",
+      "sha256": "c2512045d320491160e38195d53ef068d65fd4404e8242d6d7b892204a9e770e",
+      "bytes": 15078
+    },
+    {
+      "path": "docs/history/v2.3.3/RELEASE-CONTRACT.json",
+      "sha256": "b989bf69985917c4699a18c12f68dc93e74da537ce5e8d13e6740bae23c896d7",
+      "bytes": 1389
+    },
+    {
+      "path": "docs/history/v2.3.3/TEST-RESULTS.md",
+      "sha256": "5c1f1febc91aa1cd9812c901bb37a3fe3759e1d6980db2c27c8581ee5a2d436f",
+      "bytes": 4264
+    },
+    {
+      "path": "docs/test-logs/full-regression-v2.3.3.log",
+      "sha256": "ed3a386cdc3e4bfc4e604f7ca422f98171334cebce209653b17c3bdea3116373",
+      "bytes": 21519
+    },
+    {
+      "path": "docs/test-logs/v2.3.4/canvas-browser.log",
+      "sha256": "0fa7a73219b6f4320bb399f76cc11baecaa98239e29120de6b51af549660fbb9",
+      "bytes": 3049
+    },
+    {
+      "path": "docs/test-logs/v2.3.4/full-regression.log",
+      "sha256": "a48574f8d7ac9e915423e94d07dd8b419c9ecf77951f37bdca90b02ecee9e075",
+      "bytes": 22506
+    },
+    {
+      "path": "engine/vut_ai_tutor_universal_installer_v2.0.6.py",
+      "sha256": "9b771751f0d0347683cc6cf2a4ecc86bc8f42b64b5bb19228a8c89d36f4ee564",
+      "bytes": 86854
+    },
+    {
+      "path": "install-vut-ai-tutor-universal-v2.3.4.ps1",
+      "sha256": "a1606d10be9612d59fba66c8bd6aff8ceb5cfb8b27f17c273b6964ac469e3b36",
+      "bytes": 26965
+    },
+    {
+      "path": "install-vut-ai-tutor-universal-v2.3.4.py",
+      "sha256": "7bc667f9954b2bf3b440346886de7033580c6bcdf3d7317ff4c9c839d6d1e2b5",
+      "bytes": 14177
+    },
+    {
+      "path": "install-vut-ai-tutor-universal-v2.3.4.sh",
+      "sha256": "1853281fe7ddca4eaa0409ca8b6910022546efb9765f9083a82bd75b40c7cc3e",
+      "bytes": 503
+    },
+    {
+      "path": "runtime/vut_ai_tutor_bootstrap_v1.26.5_server_desktop_windows_mock_transport_complete.py",
+      "sha256": "bdf315b89c38fbc1417e04936871498ea5ac64f59d0eb0f46eada4b4572ac32f",
+      "bytes": 1034282
+    },
+    {
+      "path": "runtime/vut_ai_tutor_manager_v1.26.5_server_desktop_windows_mock_transport_complete.py",
+      "sha256": "ab014514e13d520313e4d6fc41aa5f18e131b31a9ee676a3d3b27c0fd001c092",
+      "bytes": 104674
+    },
+    {
+      "path": "runtime/vut_ai_tutor_pipe_v1.26.5_server_desktop_windows_mock_transport_complete.py",
+      "sha256": "9bebab54e1f8cbe841973c4ab06e2e88358542027233f64f4ea7a4f691603893",
+      "bytes": 4781
+    },
+    {
+      "path": "test-vut-ai-tutor-universal-v2.3.4-windows.ps1",
+      "sha256": "d5afb2460cc2bbc16b321d96944adb17fe1be134fb7d6cd05cef1648985cf06a",
+      "bytes": 5542
+    },
+    {
+      "path": "test-vut-ai-tutor-universal-v2.3.4.sh",
+      "sha256": "b0d631e7b8a72c97fef8a4891d773f679761b86458441fd0561950982dba57f7",
+      "bytes": 2497
+    },
+    {
+      "path": "tests/fixtures/canvas-panel-bridge-before-v1.26.4.js",
+      "sha256": "8fc9c4808763d3aa80c4051f5aec6f20ce78381f7bfcaa46e6ea64629f8dddfa",
+      "bytes": 19776
+    },
+    {
+      "path": "tests/integration_baseline.json",
+      "sha256": "b7eb0d9598ff167947332a8465975b8d747c2f1e608967efa12cfd1002c4c270",
+      "bytes": 60844
+    },
+    {
+      "path": "tests/mock_openwebui_api.py",
+      "sha256": "75d85d87028755f128a4fb5fbc3a69ba24a5b60eecee3c965c52389bf7239ede",
+      "bytes": 11501
+    },
+    {
+      "path": "tests/mock_openwebui_api_v2.3.4.py",
+      "sha256": "84a3489a6335e5b128713b1ecdb200b20a4504b2714d1b9da905cde3b19b34f1",
+      "bytes": 11501
+    },
+    {
+      "path": "tests/requirements-browser-test.txt",
+      "sha256": "df7696acf1e200684a962c8b7cb25363273b8239093235e68bb3f60231a9799f",
+      "bytes": 19
+    },
+    {
+      "path": "tests/requirements-test.txt",
+      "sha256": "ec214ad25e9ba9860256a71f64a75b236a816649a0ead455988b732bae6893c3",
+      "bytes": 245
+    },
+    {
+      "path": "tests/test_api_platforms_e2e_v2.3.4.py",
+      "sha256": "2bfe1cb02d4f132d984a72d0fe64983d495c2a065686e7983046400617e414f9",
+      "bytes": 7930
+    },
+    {
+      "path": "tests/test_canvas_layout_browser.py",
+      "sha256": "6a6958274de4d3ab8e32c42c94687e0f20ab5b246677aa59504306a1f26515de",
+      "bytes": 15840
+    },
+    {
+      "path": "tests/test_canvas_layout_contract.py",
+      "sha256": "919ae567429806355e5edf38f0e2fbbf31ee0a3e769e3b218f7ba52a7615c2c2",
+      "bytes": 3473
+    },
+    {
+      "path": "tests/test_cli_wrappers_e2e_v2.3.4.py",
+      "sha256": "cc2e40871fed3c63f0f2196163d99aeb723d05b7bf13ebe0e706c7adb81aae10",
+      "bytes": 3511
+    },
+    {
+      "path": "tests/test_desktop_official_lifecycle_v2.3.4.py",
+      "sha256": "155a2b85b3cb4d18413a4a18fe6e600ebfa7e3c5da2b09dec3b4faefab53f0cd",
+      "bytes": 7604
+    },
+    {
+      "path": "tests/test_package_contract_v2.3.4.py",
+      "sha256": "42bbbda836ed157d7a228a64009521b5030abb30f609a827b7ead0f0c63d4675",
+      "bytes": 5924
+    },
+    {
+      "path": "tests/test_pdf_delivery.py",
+      "sha256": "8307b4dfb5eae3f97b0091eb17845acc79a06078c1f5a3d69860a511907de6b0",
+      "bytes": 15551
+    },
+    {
+      "path": "tests/test_pdf_diagnostic.mjs",
+      "sha256": "b838ef65b9e989365dc7cdbb0c27a107c325a674b471e790f8f57996717d4753",
+      "bytes": 3583
+    },
+    {
+      "path": "tests/test_pdf_installer.py",
+      "sha256": "11df41ad41b60890d5b72afbc967341782083b7bdf978bcd6cabac06419114c0",
+      "bytes": 3512
+    },
+    {
+      "path": "tests/test_pdf_source_recovery.py",
+      "sha256": "41a7ea15802e3c1c33005f882ec0f30a90c97b0c3dbdd9ed5ef2c35aa795f429",
+      "bytes": 17877
+    },
+    {
+      "path": "tests/test_platform_detection_v2.3.4.py",
+      "sha256": "661502fb3701a9837d66ec7138bb71c0bb1e1673b08c7f33e2b99a63f944ece5",
+      "bytes": 6767
+    },
+    {
+      "path": "tests/test_powershell_lexical_v2.3.4.py",
+      "sha256": "e9dded3b90111d30c11a1631a3edd3832cd2163bd41cee12434fa22509cfb564",
+      "bytes": 4884
+    },
+    {
+      "path": "tests/test_universal_pdf_integration.py",
+      "sha256": "c09aec6840338e741d49693f3fa3895c1ece0313a3d11fe8be940ffb02e082f9",
+      "bytes": 12465
+    },
+    {
+      "path": "verify-vut-ai-tutor-universal-v2.3.4.ps1",
+      "sha256": "171c8fa12c14bfe17940a48ee8aae43da99f575d0549ab06a799cfc460dc331a",
+      "bytes": 2940
+    },
+    {
+      "path": "verify-vut-ai-tutor-universal-v2.3.4.sh",
+      "sha256": "7b882c918e7e57c1898291d15e8361b1d167e5b44560e868ae89e3bbab196c8e",
+      "bytes": 190
+    }
+  ]
+}

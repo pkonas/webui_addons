@@ -1,0 +1,17 @@
+{
+  "runtime": "1.26.3",
+  "scenario": "canonical record path=None; byte-identical new upload available",
+  "raw_sha256": "c134aed0f69bbc6903a9781411b59039cfc6f3dfd5d22a8c7cc998396e90bc40",
+  "new_upload_id": "4a1a7968-eb9a-467d-8041-4f0d54b067e6",
+  "selected_book_id": "d81a3f40-8070-4479-b980-eb37f4e6841a",
+  "deduplicated": true,
+  "pdf_http_status": 409,
+  "byte_identity_verified": false,
+  "detail": {
+    "detail": {
+      "code": "file_path_missing",
+      "message": "Záznam knihy nemá cestu k originálnímu souboru a originál nebyl jednoznačně nalezen v uploads.",
+      "file_id": "d81a3f40-8070-4479-b980-eb37f4e6841a"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "bash_install": true,
+  "bash_verify": true,
+  "python_uninstall": true,
+  "reverse_proxy_prefix": "/openwebui"
+}

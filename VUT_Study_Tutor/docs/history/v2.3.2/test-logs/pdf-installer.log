@@ -1,0 +1,8 @@
+test_embedded_payloads_exact_and_powershell_encoding (__main__.InstallerTests.test_embedded_payloads_exact_and_powershell_encoding) ... ok
+test_install_verify_backup_preserve_valves (__main__.InstallerTests.test_install_verify_backup_preserve_valves) ... ok
+test_manager_self_test (__main__.InstallerTests.test_manager_self_test) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 5.685s
+
+OK

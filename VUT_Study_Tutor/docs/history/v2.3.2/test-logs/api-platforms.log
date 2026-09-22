@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "engine_version": "2.0.4",
+  "runtime_version": "1.26.3",
+  "cycles": [
+    {
+      "platform": "remote",
+      "prefix": "/openwebui",
+      "install": true,
+      "verify": true,
+      "uninstall": true,
+      "operations": 108
+    },
+    {
+      "platform": "docker",
+      "prefix": "",
+      "install": true,
+      "verify": true,
+      "uninstall": true,
+      "operations": 108
+    },
+    {
+      "platform": "baremetal",
+      "prefix": "",
+      "install": true,
+      "verify": true,
+      "uninstall": true,
+      "operations": 108
+    }
+  ],
+  "rollback": {
+    "forced_failure": true,
+    "rollback_restored": true,
+    "post_rollback_verify": true
+  },
+  "future_version": {
+    "reported_openwebui_version": "0.12.7",
+    "capability_gated_install": true,
+    "warning_recorded": true,
+    "verify": true
+  }
+}

@@ -1,0 +1,5 @@
+[INFO] Manager 1.26.5 zahájil operaci mode=TutorOnly target=Desktop pid=2028.
+[INFO] Cílový Open WebUI backend: http://127.0.0.1:8080
+[INFO] Function backup: D:\Scripts\webui-addons\Study_Tutor_webui\vut-ai-tutor-universal-v2.3.4-runtime-v1.26.5-complete\vut-pdf-hotfix-functions-before-20260919-175628-95288b25.json
+[OK] Aktivní Function study_tutor_gateway_bootstrap (event) i study_tutor_pipe (pipe) byly přímo vytvořeny a ověřeny.
+[INFO] Report: D:\Scripts\webui-addons\Study_Tutor_webui\vut-ai-tutor-universal-v2.3.4-runtime-v1.26.5-complete\vut-ai-tutor-install-v2.3.4.json

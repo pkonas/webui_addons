@@ -1,0 +1,20 @@
+{
+  "environment": "isolated ASGI gateway; Open WebUI adapters replaced",
+  "http_status": 200,
+  "version": "1.26.5",
+  "canvas_layout": {
+    "revision": "canvas-layout-r1",
+    "native_layout_owner": "open-webui",
+    "fallback_only_reservation": true,
+    "cancellable_panel_open": true,
+    "live_window_verified": false
+  },
+  "pdf_delivery": {
+    "revision": "pdf-delivery-r2",
+    "storage_resolution": "authorized-record-or-unique-local-file-uuid",
+    "live_document_verified": false,
+    "owned_raw_sha256_copy_recovery": true,
+    "text_hash_is_not_raw_identity": true,
+    "missing_source_retry_seconds": 300
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "browser": "144.0.7559.96",
+  "fixture": "reduced nested flex layout; not live Open WebUI/Electron",
+  "before": {
+    "styleMutations": 434,
+    "loopErrors": 81,
+    "widthSamples": [
+      749,
+      749,
+      1440,
+      749,
+      1440,
+      1440,
+      749,
+      1440,
+      749,
+      1440,
+      749,
+      1440
+    ]
+  },
+  "after": {
+    "styleMutations": 0,
+    "loopErrors": 0,
+    "width": 1440,
+    "revision": "canvas-layout-r1",
+    "mode": "native",
+    "syncs": 1,
+    "styleWrites": 0,
+    "disposed": false,
+    "observedResizeTargets": 0,
+    "ownedElements": 0,
+    "pendingLayout": false
+  }
+}

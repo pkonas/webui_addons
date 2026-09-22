@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "built_at": "2026-09-18",
+  "installer_version": "2.3.3",
+  "runtime_version": "1.26.4",
+  "api_engine_version": "2.0.5",
+  "einfra_adapter_version": "2.1.7",
+  "pdf_delivery_revision": "pdf-delivery-r2",
+  "host": {
+    "platform": "Linux",
+    "python": "3.13.5",
+    "node": "v22.16.0",
+    "dependencies": {
+      "fastapi": "0.128.2",
+      "starlette": "0.50.0",
+      "httpx": "0.28.1",
+      "python-multipart": "0.0.29",
+      "pydantic": "2.13.4",
+      "pypdf": "5.9.0",
+      "pypdfium2": "5.8.0",
+      "PyMuPDF": "1.26.7"
+    }
+  },
+  "individual_tests": {
+    "pdf_backend": 41,
+    "pdf_source_recovery_including_actual_pdf": 32,
+    "desktop_installer_mock": 3,
+    "universal_integration_contracts": 13,
+    "javascript_diagnostics": 7,
+    "total_passed": 96,
+    "failed": 0,
+    "skipped_with_actual_pdf": 0
+  },
+  "additional_checks": [
+    "Bash syntax",
+    "all Python source compilation",
+    "package contract",
+    "PowerShell lexical contract (not native execution)",
+    "dispatcher + engine self-test",
+    "platform detection + stopped container discovery",
+    "Desktop lifecycle and dynamic port (mocked)",
+    "Remote/Docker/BareMetal install-verify-uninstall against mock HTTP API",
+    "forced failure transaction rollback",
+    "reverse-proxy Bash/Python entrypoints",
+    "synthetic future-version capability gating"
+  ],
+  "preservation": {
+    "retained_runtime_functions": 387,
+    "unchanged_runtime_function_asts": 377,
+    "changed_runtime_function_asts": 10,
+    "added_runtime_functions": 5,
+    "all_nested_payloads_match_canonical_files": true,
+    "html_css_byte_identical": true,
+    "pdfjs_version": "6.2.108",
+    "schema_version": 14,
+    "platforms": [
+      "Desktop",
+      "EInfraWindows",
+      "Docker",
+      "BareMetal",
+      "Remote"
+    ]
+  },
+  "actual_pdf_check": {
+    "file": "numericke_metody_2.pdf",
+    "bytes": 1452819,
+    "sha256": "c134aed0f69bbc6903a9781411b59039cfc6f3dfd5d22a8c7cc998396e90bc40",
+    "pypdf": {
+      "pages": 129,
+      "text_characters": 185778,
+      "text_pages": 129,
+      "encrypted": false
+    },
+    "pdfium": {
+      "rendered_pages": 129,
+      "scale": 1.0
+    },
+    "pymupdf": {
+      "pages": 129,
+      "text_characters": 187075,
+      "is_repaired": false
+    },
+    "elapsed_seconds": 2.71
+  },
+  "reproduction_before": {
+    "runtime": "1.26.3",
+    "scenario": "canonical record path=None; byte-identical new upload available",
+    "raw_sha256": "c134aed0f69bbc6903a9781411b59039cfc6f3dfd5d22a8c7cc998396e90bc40",
+    "new_upload_id": "4a1a7968-eb9a-467d-8041-4f0d54b067e6",
+    "selected_book_id": "d81a3f40-8070-4479-b980-eb37f4e6841a",
+    "deduplicated": true,
+    "pdf_http_status": 409,
+    "byte_identity_verified": false,
+    "detail": {
+      "detail": {
+        "code": "file_path_missing",
+        "message": "Záznam knihy nemá cestu k originálnímu souboru a originál nebyl jednoznačně nalezen v uploads.",
+        "file_id": "d81a3f40-8070-4479-b980-eb37f4e6841a"
+      }
+    }
+  },
+  "reproduction_after": {
+    "runtime": "1.26.4",
+    "scenario": "canonical record path=None; byte-identical new upload available",
+    "raw_sha256": "c134aed0f69bbc6903a9781411b59039cfc6f3dfd5d22a8c7cc998396e90bc40",
+    "new_upload_id": "4a1a7968-eb9a-467d-8041-4f0d54b067e6",
+    "selected_book_id": "d81a3f40-8070-4479-b980-eb37f4e6841a",
+    "deduplicated": true,
+    "pdf_http_status": 200,
+    "byte_identity_verified": true,
+    "detail": null
+  },
+  "limits": {
+    "backend_tests": "real isolated Tutor ASGI + SQLite + session HMAC; Open WebUI Files/Storage/Knowledge/RAG interfaces replaced by test doubles",
+    "install_tests": "mock HTTP server and mocked lifecycle, not a production Open WebUI",
+    "pdf_render": "all pages PDFium, not Electron PDF.js",
+    "state": "no production DB provided; origin of missing path unproven",
+    "source_inventory": "structural check only, not a functional test of every study scenario"
+  },
+  "not_live_tested": [
+    "Windows PowerShell native execution/parser",
+    "Electron Open WebUI Desktop/Windows ACL",
+    "e-INFRA Task Scheduler/Caddy",
+    "actual Docker/Podman daemon",
+    "actual S3/GCS/Azure service",
+    "systemd restart",
+    "macOS",
+    "PDF.js rendering in Electron"
+  ],
+  "canonical_archive": "vut-ai-tutor-universal-v2.3.3-runtime-v1.26.4-complete.zip",
+  "desktop_backup": {
+    "functions_and_valves": true,
+    "automatic_rollback": false
+  },
+  "api_transactional_rollback_preserved": true,
+  "user_pdf_and_private_logs_in_archive": false,
+  "test_log": "docs/test-logs/full-regression-v2.3.3.log"
+}

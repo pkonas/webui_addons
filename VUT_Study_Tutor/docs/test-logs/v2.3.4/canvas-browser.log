@@ -1,0 +1,24 @@
+test_01_old_bridge_reproduces_self_sustained_native_feedback (__main__.CanvasLayoutBrowserTests.test_01_old_bridge_reproduces_self_sustained_native_feedback) ... ok
+test_02_fixed_native_has_no_layout_writes (__main__.CanvasLayoutBrowserTests.test_02_fixed_native_has_no_layout_writes) ... ok
+test_03_native_close_reopen_12_times_remains_stable (__main__.CanvasLayoutBrowserTests.test_03_native_close_reopen_12_times_remains_stable) ... ok
+test_04_native_splitter_and_viewport_remain_host_owned (__main__.CanvasLayoutBrowserTests.test_04_native_splitter_and_viewport_remain_host_owned) ... ok
+test_05_fallback_reserves_once_and_never_resizes_composer (__main__.CanvasLayoutBrowserTests.test_05_fallback_reserves_once_and_never_resizes_composer) ... ok
+test_06_fallback_idle_is_not_a_layout_poll (__main__.CanvasLayoutBrowserTests.test_06_fallback_idle_is_not_a_layout_poll) ... ok
+test_07_close_preserves_foreign_styles_and_releases_targets (__main__.CanvasLayoutBrowserTests.test_07_close_preserves_foreign_styles_and_releases_targets) ... ok
+test_08_close_does_not_overwrite_external_edit_to_owned_property (__main__.CanvasLayoutBrowserTests.test_08_close_does_not_overwrite_external_edit_to_owned_property) ... ok
+test_09_rapid_open_requests_cancel_older_attempts (__main__.CanvasLayoutBrowserTests.test_09_rapid_open_requests_cancel_older_attempts) ... ok
+test_10_late_native_mount_closes_fallback_and_does_not_resurrect (__main__.CanvasLayoutBrowserTests.test_10_late_native_mount_closes_fallback_and_does_not_resurrect) ... ok
+test_11_fallback_width_is_clamped_after_window_resize (__main__.CanvasLayoutBrowserTests.test_11_fallback_width_is_clamped_after_window_resize) ... ok
+test_12_unknown_chat_structure_is_overlay_without_guessing (__main__.CanvasLayoutBrowserTests.test_12_unknown_chat_structure_is_overlay_without_guessing) ... ok
+test_13_raf_coalesces_repeated_requests (__main__.CanvasLayoutBrowserTests.test_13_raf_coalesces_repeated_requests) ... ok
+test_14_dispose_cancels_pending_open_and_all_owners (__main__.CanvasLayoutBrowserTests.test_14_dispose_cancels_pending_open_and_all_owners) ... ok
+test_15_drag_and_close_cancel_pending_move_and_restore_cursor (__main__.CanvasLayoutBrowserTests.test_15_drag_and_close_cancel_pending_move_and_restore_cursor) ... ok
+test_16_replacing_coordinator_disposes_previous_instance (__main__.CanvasLayoutBrowserTests.test_16_replacing_coordinator_disposes_previous_instance) ... ok
+test_17_action_bridge_deduplicates_and_checks_source_and_key (__main__.CanvasLayoutBrowserTests.test_17_action_bridge_deduplicates_and_checks_source_and_key) ... ok
+test_18_diagnostic_snapshot_is_serializable_and_contains_no_credentials (__main__.CanvasLayoutBrowserTests.test_18_diagnostic_snapshot_is_serializable_and_contains_no_credentials) ... ok
+test_19_unrelated_pointerup_does_not_clear_foreign_cursor (__main__.CanvasLayoutBrowserTests.test_19_unrelated_pointerup_does_not_clear_foreign_cursor) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 47.454s
+
+OK

@@ -1,0 +1,34 @@
+{
+  "installer_version": "2.3.3",
+  "api_engine_version": "2.0.5",
+  "runtime_version": "1.26.4",
+  "runtime_marker": "VUT-AI-TUTOR-1.26.4-SERVER-DESKTOP-WINDOWS-MOCK-TRANSPORT-COMPLETE",
+  "desktop_adapter_revision": "2.3.1-official-desktop-lifecycle-r1",
+  "desktop_application": "open-webui/desktop",
+  "desktop_verify_backend_policy": "probe-live-then-launch-official-electron-and-reprobe-dynamic-port",
+  "desktop_strict_verify_switch": "NoAutoStartDesktop",
+  "event_function_id": "study_tutor_gateway_bootstrap",
+  "pipe_function_id": "study_tutor_pipe",
+  "route_registration_version": 7,
+  "health_registration_strategy": "asgi-prefix-gateway-v7",
+  "architecture_label": "asgi-prefix-gateway-v7-no-main-router-mutation",
+  "platforms": [
+    "Desktop",
+    "EInfraWindows",
+    "Docker",
+    "BareMetal",
+    "Remote"
+  ],
+  "canonical_archive": "vut-ai-tutor-universal-v2.3.3-runtime-v1.26.4-complete.zip",
+  "parallel_same_version_distributions": false,
+  "pdf_delivery_revision": "pdf-delivery-r2",
+  "einfra_adapter_version": "2.1.7",
+  "embedded_api_engine_version": "2.0.5",
+  "live_document_verified_by_installer": false,
+  "integration_base": {
+    "installer_version": "2.3.2",
+    "runtime_version": "1.26.3"
+  },
+  "previous_pdf_hotfix_included": true,
+  "pdf_source_recovery": "same-owner, raw-reference + actual SHA-256 verified copy; no title/text hash guessing"
+}

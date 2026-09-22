@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: structured storage error and original bearer authorization
+ok 1 - structured storage error and original bearer authorization
+  ---
+  duration_ms: 25.055804
+  type: 'test'
+  ...
+# Subtest: generic route error retains server log correlation ID
+ok 2 - generic route error retains server log correlation ID
+  ---
+  duration_ms: 0.948065
+  type: 'test'
+  ...
+# Subtest: successful range response is cancelled without downloading a document
+ok 3 - successful range response is cancelled without downloading a document
+  ---
+  duration_ms: 0.607104
+  type: 'test'
+  ...
+# Subtest: non-JSON errors are not reflected into the diagnostic
+ok 4 - non-JSON errors are not reflected into the diagnostic
+  ---
+  duration_ms: 0.910792
+  type: 'test'
+  ...
+# Subtest: invalid oversized JSON is bounded and cancelled
+ok 5 - invalid oversized JSON is bounded and cancelled
+  ---
+  duration_ms: 1.013893
+  type: 'test'
+  ...
+# Subtest: network failure remains separate from HTTP and rendering errors
+ok 6 - network failure remains separate from HTTP and rendering errors
+  ---
+  duration_ms: 0.880718
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 95.583371

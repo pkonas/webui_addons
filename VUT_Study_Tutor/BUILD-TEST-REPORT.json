@@ -1,0 +1,123 @@
+{
+  "installer_version": "2.3.4",
+  "runtime_version": "1.26.5",
+  "api_engine_version": "2.0.6",
+  "einfra_adapter_version": "2.1.8",
+  "status": "passed-in-staging",
+  "environment": {
+    "os": "Linux",
+    "python": "3.13.5",
+    "node": "v22.16.0",
+    "chromium": "144.0.7559.96"
+  },
+  "individual_tests": {
+    "passed": 121,
+    "failed": 0,
+    "skipped": 0,
+    "suites": [
+      {
+        "name": "PDF delivery (isolated ASGI)",
+        "passed": 41
+      },
+      {
+        "name": "PDF copy recovery, including supplied-PDF byte test",
+        "passed": 32
+      },
+      {
+        "name": "Desktop Function manager (mock API)",
+        "passed": 3
+      },
+      {
+        "name": "Universal payload integration and preservation",
+        "passed": 13
+      },
+      {
+        "name": "PDF JavaScript diagnostics (Node)",
+        "passed": 7
+      },
+      {
+        "name": "Canvas layout contracts",
+        "passed": 6
+      },
+      {
+        "name": "Canvas lifecycle (Chromium reduced DOM)",
+        "passed": 19
+      }
+    ]
+  },
+  "additional_checks": [
+    "Bash syntax",
+    "Python compilation",
+    "Package contract and SHA-256 manifest",
+    "PowerShell lexical/CmdletBinding contracts (not execution)",
+    "Dispatcher/API engine self-test",
+    "Platform detection and published-container-port fixtures",
+    "Desktop lifecycle fixtures",
+    "Remote/Docker/BareMetal mock API install-verify-uninstall and rollback",
+    "Bash/Python entry points with reverse-proxy prefix",
+    "Isolated ASGI health request HTTP 200"
+  ],
+  "browser_reproduction": {
+    "browser": "144.0.7559.96",
+    "fixture": "reduced nested flex layout; not live Open WebUI/Electron",
+    "before": {
+      "styleMutations": 434,
+      "loopErrors": 81,
+      "widthSamples": [
+        749,
+        749,
+        1440,
+        749,
+        1440,
+        1440,
+        749,
+        1440,
+        749,
+        1440,
+        749,
+        1440
+      ]
+    },
+    "after": {
+      "styleMutations": 0,
+      "loopErrors": 0,
+      "width": 1440,
+      "revision": "canvas-layout-r1",
+      "mode": "native",
+      "syncs": 1,
+      "styleWrites": 0,
+      "disposed": false,
+      "observedResizeTargets": 0,
+      "ownedElements": 0,
+      "pendingLayout": false
+    }
+  },
+  "preservation": {
+    "runtime_functions_retained": 392,
+    "unchanged_function_bodies": 390,
+    "changed_methods": [
+      "StudyRuntime.register_routes",
+      "StudyRuntime._canvas_open_panel_code"
+    ],
+    "canvas_html_css_js_unchanged": true,
+    "pdfjs_version": "6.2.108",
+    "database_schema": 14,
+    "pdf_delivery_revision": "pdf-delivery-r2",
+    "desktop_and_einfra_nested_payloads_verified": true
+  },
+  "raw_logs": [
+    "docs/test-logs/v2.3.4/full-regression.log",
+    "docs/test-logs/v2.3.4/canvas-browser.log"
+  ],
+  "verification_scope": "These logs are from the staged final source tree. A separate clean-ZIP verification report is produced beside the archive after packaging; it is not self-embedded in this report.",
+  "not_verified": [
+    "Live Windows PowerShell execution",
+    "Live Electron/Desktop layout",
+    "Exact user Open WebUI Svelte build",
+    "Live e-INFRA services",
+    "Real Docker/Podman deployment",
+    "Actual pagehide/bfcache navigation (dispose is executed directly in browser tests)",
+    "Every educational and tool scenario end-to-end"
+  ],
+  "data_policy": "No user PDF, user logs, credentials, production databases or browser binaries bundled."
+}

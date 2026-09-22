@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "built_at": "2026-09-18",
+  "installer_version": "2.3.2",
+  "runtime_version": "1.26.3",
+  "api_engine_version": "2.0.4",
+  "einfra_adapter_version": "2.1.6",
+  "pdf_delivery_revision": "pdf-delivery-r1",
+  "desktop_adapter_revision": "2.3.1-official-desktop-lifecycle-r1",
+  "host": {
+    "platform": "Linux",
+    "python": "3.13.5",
+    "node": "v22.16.0",
+    "dependencies": {
+      "fastapi": "0.128.2",
+      "starlette": "0.50.0",
+      "httpx": "0.28.1",
+      "python-multipart": "0.0.29",
+      "pydantic": "2.13.4"
+    }
+  },
+  "individual_tests": {
+    "pdf_backend": {
+      "passed": 41,
+      "failed": 0
+    },
+    "desktop_installer_mock": {
+      "passed": 3,
+      "failed": 0
+    },
+    "universal_integration_contracts": {
+      "passed": 12,
+      "failed": 0
+    },
+    "javascript_diagnostics": {
+      "passed": 6,
+      "failed": 0
+    },
+    "total_passed": 62
+  },
+  "additional_regression_suites": {
+    "python_compilation": "pass",
+    "bash_syntax": "pass",
+    "package_contract": "pass",
+    "powershell_lexical_contract": "pass",
+    "dispatcher_engine_self_test": "pass",
+    "platform_detection_and_stopped_container_start": "pass",
+    "desktop_lifecycle_autostart_dynamic_port": "pass",
+    "remote_docker_baremetal_install_verify_uninstall_mock_api": "pass",
+    "api_transaction_rollback": "pass",
+    "reverse_proxy_prefix_bash_python_entrypoints": "pass",
+    "future_version_capability_gate_synthetic_0_12_7": "pass"
+  },
+  "preservation": {
+    "original_package_files_represented": 37,
+    "original_runtime_functions_retained": 383,
+    "unchanged_runtime_function_asts": 359,
+    "changed_runtime_function_asts": 24,
+    "runtime_functions_added": 4,
+    "original_named_canvas_functions_retained": 186,
+    "html_css_byte_identical": true,
+    "pdfjs_version": "6.2.108",
+    "schema_version": 14,
+    "platforms": [
+      "Desktop",
+      "EInfraWindows",
+      "Docker",
+      "BareMetal",
+      "Remote"
+    ],
+    "all_nested_payloads_match_canonical_files": true
+  },
+  "verification_limits": {
+    "file_delivery_tests": "real isolated Tutor ASGI gateway; temporary SQLite and HMAC sessions; external Open WebUI Files/Storage replaced by test doubles",
+    "installer_tests": "mock HTTP API and mocked platform lifecycle; not an installed Open WebUI instance",
+    "source_inventory": "structural preservation check; not functional execution of every study scenario"
+  },
+  "not_live_tested_here": [
+    "Windows PowerShell 5.1 execution and native parser",
+    "Electron Open WebUI Desktop start/restart and Windows ACL",
+    "e-INFRA Task Scheduler and Caddy operations",
+    "real Docker or Podman daemon",
+    "systemd or other real service restart",
+    "macOS execution",
+    "production remote Open WebUI and storage providers",
+    "PDF.js pixel rendering in Electron",
+    "the user’s original PDF"
+  ],
+  "archive_validation": {
+    "top_level_directory": "vut-ai-tutor-universal-v2.3.2-runtime-v1.26.3-complete",
+    "zip_crc": "pass",
+    "package_sha256_manifest": "pass",
+    "no_pycache_or_pyc": true,
+    "tests_reexecuted_from_clean_extraction": true
+  },
+  "canonical_archive": "vut-ai-tutor-universal-v2.3.2-runtime-v1.26.3-complete.zip",
+  "parallel_same_version_distributions": false,
+  "desktop_backup": {
+    "functions_and_valves": true,
+    "automatic_rollback": false,
+    "filename_pattern": "vut-pdf-hotfix-functions-before-*.json"
+  },
+  "api_engine_and_einfra_transactional_rollback_preserved": true
+}

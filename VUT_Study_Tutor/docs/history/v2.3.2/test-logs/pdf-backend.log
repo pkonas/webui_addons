@@ -1,0 +1,47 @@
+test_ambiguous_uuid_rejected (__main__.PdfDeliveryTests.test_ambiguous_uuid_rejected) ... ok
+test_async_storage_adapter (__main__.PdfDeliveryTests.test_async_storage_adapter) ... ok
+test_blank_path_is_409 (__main__.PdfDeliveryTests.test_blank_path_is_409) ... ok
+test_cloud_no_local_uuid_fallback (__main__.PdfDeliveryTests.test_cloud_no_local_uuid_fallback) ... ok
+test_empty_file_422 (__main__.PdfDeliveryTests.test_empty_file_422) ... ok
+test_fd_closed_after_disconnect (__main__.PdfDeliveryTests.test_fd_closed_after_disconnect) ... ok
+test_fd_closed_after_success (__main__.PdfDeliveryTests.test_fd_closed_after_success) ... ok
+test_foreign_file_record_cannot_read (__main__.PdfDeliveryTests.test_foreign_file_record_cannot_read) ... ok
+test_full_pdf_200_unicode_filename (__main__.PdfDeliveryTests.test_full_pdf_200_unicode_filename) ... ok
+test_generic_error_has_log_id_not_private_details (__main__.PdfDeliveryTests.test_generic_error_has_log_id_not_private_details) ... ok
+test_head_full (__main__.PdfDeliveryTests.test_head_full) ... ok
+test_head_ignores_range (__main__.PdfDeliveryTests.test_head_ignores_range) ... ok
+test_health_identifies_hotfix_not_document_success (__main__.PdfDeliveryTests.test_health_identifies_hotfix_not_document_success) ... ok
+test_invalid_path_types (__main__.PdfDeliveryTests.test_invalid_path_types) ... ok
+test_invalid_token (__main__.PdfDeliveryTests.test_invalid_token) ... ok
+test_malformed_ranges_416 (__main__.PdfDeliveryTests.test_malformed_ranges_416) ... ok
+test_missing_file_404 (__main__.PdfDeliveryTests.test_missing_file_404) ... ok
+test_missing_file_record (__main__.PdfDeliveryTests.test_missing_file_record) ... ok
+test_non_pdf_422 (__main__.PdfDeliveryTests.test_non_pdf_422) ... ok
+test_null_path_is_409_not_500 (__main__.PdfDeliveryTests.test_null_path_is_409_not_500) ... ok
+test_null_path_uuid_recovery_database_unchanged (__main__.PdfDeliveryTests.test_null_path_uuid_recovery_database_unchanged) ... ok
+test_open_permission_error_before_headers (__main__.PdfDeliveryTests.test_open_permission_error_before_headers) ... ok
+test_other_session_owner_cannot_read (__main__.PdfDeliveryTests.test_other_session_owner_cannot_read) ... ok
+test_preflight_head_allowed (__main__.PdfDeliveryTests.test_preflight_head_allowed) ... ok
+test_range_clamped (__main__.PdfDeliveryTests.test_range_clamped) ... ok
+test_range_open_ended (__main__.PdfDeliveryTests.test_range_open_ended) ... ok
+test_range_start_end (__main__.PdfDeliveryTests.test_range_start_end) ... ok
+test_range_suffix (__main__.PdfDeliveryTests.test_range_suffix) ... ok
+test_range_suffix_larger_than_file (__main__.PdfDeliveryTests.test_range_suffix_larger_than_file) ... ok
+test_sqlite_connection_closed_after_reads_and_writes (__main__.PdfDeliveryTests.test_sqlite_connection_closed_after_reads_and_writes) ... ok
+test_sqlite_connection_closed_on_error (__main__.PdfDeliveryTests.test_sqlite_connection_closed_on_error) ... ok
+test_stale_windows_path_uuid_recovery (__main__.PdfDeliveryTests.test_stale_windows_path_uuid_recovery) ... ok
+test_storage_bad_result (__main__.PdfDeliveryTests.test_storage_bad_result) ... ok
+test_storage_exception_safe_diagnostic (__main__.PdfDeliveryTests.test_storage_exception_safe_diagnostic) ... ok
+test_storage_permission_error (__main__.PdfDeliveryTests.test_storage_permission_error) ... ok
+test_symlink_outside_uploads_rejected (__main__.PdfDeliveryTests.test_symlink_outside_uploads_rejected) ... ok
+test_sync_files_adapter (__main__.PdfDeliveryTests.test_sync_files_adapter) ... Executing <Task pending name='Task-183' coro=<PdfDeliveryTests.asyncSetUp() running at /mnt/data/vut-ai-tutor-universal-v2.3.2-runtime-v1.26.3-complete/tests/test_pdf_delivery.py:65> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/lib/python3.13/asyncio/futures.py:384, Task.task_wakeup()] created at /usr/lib/python3.13/asyncio/base_events.py:459> cb=[_run_until_complete_cb() at /usr/lib/python3.13/asyncio/base_events.py:181] created at /usr/lib/python3.13/asyncio/runners.py:100> took 0.137 seconds
+ok
+test_sync_wrapper_returning_awaitable (__main__.PdfDeliveryTests.test_sync_wrapper_returning_awaitable) ... ok
+test_title_only_match_rejected (__main__.PdfDeliveryTests.test_title_only_match_rejected) ... ok
+test_unauthenticated_no_storage_access (__main__.PdfDeliveryTests.test_unauthenticated_no_storage_access) ... ok
+test_uuid_prefix_collision_rejected (__main__.PdfDeliveryTests.test_uuid_prefix_collision_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 1.824s
+
+OK

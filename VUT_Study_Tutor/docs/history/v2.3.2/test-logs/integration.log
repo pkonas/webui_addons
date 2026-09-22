@@ -1,0 +1,17 @@
+test_all_desktop_payloads_include_recovery_and_verify (__main__.UniversalPdfIntegrationTests.test_all_desktop_payloads_include_recovery_and_verify) ... ok
+test_corrupted_payload_rejected_before_install (__main__.UniversalPdfIntegrationTests.test_corrupted_payload_rejected_before_install) ... ok
+test_dispatcher_keeps_explicit_recovery_and_safe_desktop_default (__main__.UniversalPdfIntegrationTests.test_dispatcher_keeps_explicit_recovery_and_safe_desktop_default) ... ok
+test_einfra_all_nested_payloads_identical_to_canonical_sources (__main__.UniversalPdfIntegrationTests.test_einfra_all_nested_payloads_identical_to_canonical_sources) ... ok
+test_embedded_pipe_and_javascript_fixture_exact (__main__.UniversalPdfIntegrationTests.test_embedded_pipe_and_javascript_fixture_exact) ... ok
+test_every_powershell_file_is_bom_crlf (__main__.UniversalPdfIntegrationTests.test_every_powershell_file_is_bom_crlf) ... ok
+test_html_css_pdfjs_schema_and_feature_constants_preserved (__main__.UniversalPdfIntegrationTests.test_html_css_pdfjs_schema_and_feature_constants_preserved) ... ok
+test_manifest_covers_distribution (__main__.UniversalPdfIntegrationTests.test_manifest_covers_distribution) ... ok
+test_original_canvas_functions_not_removed (__main__.UniversalPdfIntegrationTests.test_original_canvas_functions_not_removed) ... ok
+test_original_runtime_functions_not_removed (__main__.UniversalPdfIntegrationTests.test_original_runtime_functions_not_removed) ... ok
+test_release_contract_all_original_platforms (__main__.UniversalPdfIntegrationTests.test_release_contract_all_original_platforms) ... ok
+test_runtime_and_api_engine_versions_and_markers_agree (__main__.UniversalPdfIntegrationTests.test_runtime_and_api_engine_versions_and_markers_agree) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.374s
+
+OK

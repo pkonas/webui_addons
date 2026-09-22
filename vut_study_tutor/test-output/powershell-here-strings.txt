@@ -1,1 +1,0 @@
-{"here_strings": 3, "indented_terminators": 0, "ok": true, "powershell_files": 7, "unterminated_here_strings": 0}

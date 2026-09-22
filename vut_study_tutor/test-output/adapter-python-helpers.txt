@@ -1,1 +1,0 @@
-{"adapter": "2.1.5", "file_based_helpers_executed": ["init", "offline", "verify"], "ok": true, "sqlite_backup_verified": true, "unrelated_function_preserved": true, "updated_count": 2}

@@ -1,1 +1,0 @@
-{"adapter": "2.1.5", "latest_tutor_failure_detected": true, "negative_headers": 4, "ok": true, "pattern": "^---\\s+.+?\\s+start:\\s+\"?(?:[^\"\\r\\n]*[\\\\/])?open-webui(?:\\.exe)?\"?\\s+serve(?:\\s|$)", "positive_headers": 4, "previous_run_isolated": true, "truncated_header_retained": true}

@@ -1,0 +1,47 @@
+{
+  "test-engineering-mcp-agent-optional-v2.9.18.py": {
+    "returncode": 0,
+    "stdout": "PASS: direct runtime provider\nPASS: LLM-unconfigured installation mode\nPASS: Open WebUI API as agent transport\nPASS: static contracts\nUNIFIED_V2912_AGENT_OPTIONAL_TESTS_OK\n",
+    "stderr": ""
+  },
+  "test-engineering-mcp-managed-artifact-root-v2.9.18.py": {
+    "returncode": 0,
+    "stdout": "MANAGED_ARTIFACT_ROOT_V2912_TESTS_OK\n",
+    "stderr": ""
+  },
+  "test-engineering-mcp-unified-v2.9.18.py": {
+    "returncode": 0,
+    "stdout": "PASS: test_component_contract\nPASS: test_completed_job_id_extraction\nPASS: test_gallery_renders_all_supported_types_and_escapes\nPASS: test_openapi_gallery_route_and_automatic_solve_render\nPASS: test_openwebui_live_tool_server_refresh\nPASS: test_static_contract\nUNIFIED_V2912_NATIVE_ARTIFACT_TESTS_OK\n",
+    "stderr": ""
+  },
+  "test-engineering-physnemo-functionref-dependency-v1.2.10.py": {
+    "returncode": 0,
+    "stdout": "PHYSNEMO_FUNCTIONREF_DEPENDENCY_V1_OK\n",
+    "stderr": ""
+  },
+  "test-engineering-physnemo-generic-agent-v1.2.10.py": {
+    "returncode": 0,
+    "stdout": "GENERIC_PHYSNEMO_PLUGIN_TEST_OK\n",
+    "stderr": ""
+  },
+  "test-openapi-operation-id-v2.9.18.py": {
+    "returncode": 0,
+    "stdout": "PASS: operationId complements MCPO path names for gateway-native tools\nPASS: legacy schemas without operationId use a path fallback\nPASS: MCPO paths become canonical OpenAPI operationIds\nPASS: PhysicsNeMo OpenAPI verification accepts render_artifacts\nOPENAPI_OPERATION_ID_V2912_TESTS_OK\n",
+    "stderr": ""
+  },
+  "test-openwebui-engineering-tool-router-v2.9.18.py": {
+    "returncode": 0,
+    "stdout": "OPENWEBUI_ENGINEERING_TOOL_ROUTER_V2912_OK\n",
+    "stderr": ""
+  },
+  "test-openwebui-native-sync-v2.9.18.py": {
+    "returncode": 0,
+    "stdout": "OPENWEBUI_NATIVE_SYNC_V2912_OK\n",
+    "stderr": ""
+  },
+  "test-physnemo-openwebui-agent-bridge-route-v2.9.18.py": {
+    "returncode": 0,
+    "stdout": "BRIDGE_ROUTE_TEST_OK\n",
+    "stderr": ""
+  }
+}

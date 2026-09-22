@@ -1,0 +1,7 @@
+{
+  "basis": "Only the two stated functions extracted from the supplied report; no training run.",
+  "torch": "2.10.0+cpu",
+  "sample_failure": "RuntimeError: Tensors must have same number of dimensions: got 2 and 1",
+  "ic_mask_mismatch": "RuntimeError: The size of tensor a (4) must match the size of tensor b (6) at non-singleton dimension 0",
+  "matched_all_zero_mask_loss_with_wrong_uniform_velocity": 0.0
+}

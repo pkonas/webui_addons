@@ -1,0 +1,42 @@
+{
+  "scope": "UNMODIFIED v2.9.17; synthetic SDK exception and model; real local Python and files. No 90-second latency measurement or user backend reproduction claimed.",
+  "source_limits": {
+    "sdk_request_seconds": 90,
+    "model_phase_seconds": 240,
+    "wsl_process_seconds": 300
+  },
+  "success": false,
+  "error": "PHYSNEMO_NATIVE_PREFLIGHT_FAILED",
+  "exception_type": "OpenAITimeoutError",
+  "failed_stage": "model_probe.workspace_write",
+  "execution_summary": {
+    "attempts": 0,
+    "succeeded": 0,
+    "failed": 0
+  },
+  "tool_summary": {
+    "attempts": 3,
+    "succeeded": 3,
+    "failed": 0,
+    "last_tool": "workspace_list"
+  },
+  "model_summary": {
+    "requests": 5,
+    "responses": 4,
+    "tool_calls": 0,
+    "selected_tool_transport": "json_actions_v1",
+    "last_response": {
+      "at": 1790006838,
+      "phase": "response",
+      "tool_choice": "named",
+      "transport": "json_actions_v1",
+      "requested_tool": "workspace_list",
+      "tool_call_count": 0,
+      "invalid_tool_call_count": 0,
+      "text_present": true,
+      "finish_reason": "stop",
+      "refusal_present": false
+    },
+    "json_actions": 3
+  }
+}

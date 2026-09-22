@@ -1,0 +1,55 @@
+Engineering MCP Unified v2.9.18 / component and NAT plugin 1.2.10
+Executed 2026-09-21. Base complete v2.9.17 SHA256 76abf80fc464e89d3315701e95c6305c1905aee6893b0d03edfa9db645777daa.
+
+RESULT: 340 local pytest cases passed in six independent invocations.
+Nine standalone regression scripts passed. Repeated packaging checks are NOT counted again.
+These results do not claim successful installation against the user's model or Windows/WSL.
+
+GROUPS: python -m pytest -q <listed files> from distribution root
+bridge-lifecycle: 115 passed; audit/test_bridge_preflight_v2918.py audit/test_bridge_protocol_v2918.py audit/test_lifecycle_v2918.py
+native-preflight: 25 passed; audit/test_native_preflight_v2918.py
+native-package: 71 passed; audit/test_install_failure_v2918.py audit/test_native_dispatch_v2918.py audit/test_package_integrity_v2918.py audit/test_reported_pinn_defects_v2918.py
+transports: 73 passed; audit/test_upstream_sse_v2918.py audit/test_model_transport_v2918.py
+json-validation: 32 passed; audit/test_json_validation_v2918.py
+timeouts: 24 passed; audit/test_model_timeouts_v2918.py
+
+NEW COVERAGE (24 cases in test_model_timeouts_v2918.py):
+- The reported 5 requests / 4 responses / 3 successful operations shape with a synthetic SDK timeout
+  is classified as PHYSNEMO_MODEL_REQUEST_TIMEOUT, with original exception type preserved.
+- Actual HTTPX/TCP server delay 0.18 s at workspace_write fails with a 0.05 s read timeout;
+  succeeds with a 0.6 s timeout, executing the actual Python and exact file roundtrip.
+  These are scaled tests, not a real 90/300-second backend benchmark.
+- Separate request watchdog and whole-model-phase deadline; cancellation prevents dispatch.
+- No automatic timeout retries, fallback or repetition of completed tool operations.
+- Safe heartbeat metadata and request/response association; exception bodies not logged.
+- Invalid/infinite/bool/negative/out-of-range timeouts rejected and finite overrides accepted.
+- A failed model probe cannot mark chat execution readiness as verified.
+
+UNCHANGED ACCEPTANCE REGRESSIONS:
+Strict whole-JSON validation and bounded format repair; exact script content; refusal and HTTP
+failures not bypassed; real local subprocess/file proof; previous JSON/SSE, gallery and lifecycle
+checks; client/model transport shape checks. The runtime physics algorithm and model are unchanged.
+
+UNMODIFIED BASE REPRODUCTION:
+executed-tests/v2917-timeout-reproduction.json uses the actual v2.9.17 plugin, synthetic model
+replies and an injected OpenAITimeoutError. Local file IO and Python are real. It reproduces the
+old generic diagnostic, NOT the user's backend behavior. Old limits were verified in source:
+90 s SDK, 240 s model phase, 300 s outer WSL. New defaults: 300 s SDK, 305 s request watchdog,
+1800 s model phase, 1920 s outer WSL process. The timeout does not replay a request.
+
+COMPLETENESS:
+All 46 main PowerShell parameters preserved, including identical parameter block text.
+No top-level function removed. Full plugin -> component -> program -> PS payload regenerated.
+Hashes verified and the verifier's embedded Python checks executed. PS source remains UTF-8 BOM/CRLF.
+
+ENVIRONMENT:
+3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]
+Linux-6.18.44-x86_64-with-glibc2.41
+Pydantic 2.13.4; HTTPX 0.28.1; pytest 9.0.2. Test SDK/model objects are explicit substitutes.
+Attempt to install exact user SDK versions failed due to DNS resolution, before package retrieval.
+See executed-tests/sdk-install.txt. This is not evidence that those versions do not exist.
+
+NOT EXECUTED / NOT CLAIMED:
+Windows PowerShell or WSL installation, actual NAT/LangChain/OpenAI SDK, user's GLM/pipe/provider,
+CUDA simulation, browser gallery rendering, full PINN training, convergence or scientific validation.
+A larger limit cannot fix an unresponsive upstream service. Live preflight remains mandatory.

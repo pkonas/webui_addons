@@ -1,0 +1,54 @@
+test_anonymize_request_preserves_input (test_v71.AddedCore.test_anonymize_request_preserves_input) ... ok
+test_dialog_unknown_binary_blocks (test_v71.AddedCore.test_dialog_unknown_binary_blocks) ... ok
+test_exact_safe_launchers_empty (test_v71.AddedCore.test_exact_safe_launchers_empty) ... ok
+test_name_field_is_sanitized (test_v71.AddedCore.test_name_field_is_sanitized) ... ok
+test_old_hmac_tokens_unchanged (test_v71.AddedCore.test_old_hmac_tokens_unchanged) ... ok
+test_readonly_core_never_invokes_cleanup (test_v71.AddedCore.test_readonly_core_never_invokes_cleanup) ... ok
+test_real_input_never_lost (test_v71.AddedCore.test_real_input_never_lost) ... ok
+test_shared_alias_across_history_and_files (test_v71.AddedCore.test_shared_alias_across_history_and_files) ... ok
+test_uploaded_file_limit (test_v71.AddedCore.test_uploaded_file_limit) ... ok
+test_all_14_languages (test_v71.Core.test_all_14_languages) ... ok
+test_determinism (test_v71.Core.test_determinism) ... ok
+test_idempotent_recheck (test_v71.Core.test_idempotent_recheck) ... ok
+test_js_serialization (test_v71.Core.test_js_serialization) ... ok
+test_missing_key (test_v71.Core.test_missing_key) ... ok
+test_no_page_automation_in_tool (test_v71.Core.test_no_page_automation_in_tool) ... ok
+test_only_one_public_tool_method (test_v71.Core.test_only_one_public_tool_method) ... ok
+test_same_prompt_file_token (test_v71.Core.test_same_prompt_file_token) ... ok
+test_uninspectable_file (test_v71.Core.test_uninspectable_file) ... ok
+test_user_separation (test_v71.Core.test_user_separation) ... ok
+test_cancellation_never_returns_body (test_v71.RequestFlow.test_cancellation_never_returns_body) ... ok
+test_clean_without_tool_stays_usable (test_v71.RequestFlow.test_clean_without_tool_stays_usable) ... ok
+test_extra_model_control_is_not_auto_sanitized (test_v71.RequestFlow.test_extra_model_control_is_not_auto_sanitized) ... ok
+test_failed_reinvocation_clears_old_marker (test_v71.RequestFlow.test_failed_reinvocation_clears_old_marker) ... ok
+test_invalid_backend (test_v71.RequestFlow.test_invalid_backend) ... ok
+test_invalid_selection (test_v71.RequestFlow.test_invalid_selection) ... ok
+test_late_file_injection_blocks (test_v71.RequestFlow.test_late_file_injection_blocks) ... ok
+test_late_sensitive_injection_blocks (test_v71.RequestFlow.test_late_sensitive_injection_blocks) ... ok
+test_metadata_selection (test_v71.RequestFlow.test_metadata_selection) ... ok
+test_missing_callback_stops_before_tool (test_v71.RequestFlow.test_missing_callback_stops_before_tool) ... ok
+test_missing_key_stops_before_collecting (test_v71.RequestFlow.test_missing_key_stops_before_collecting) ... ok
+test_old_protocol_rejected (test_v71.RequestFlow.test_old_protocol_rejected) ... ok
+test_old_sensitive_history_clean_current (test_v71.RequestFlow.test_old_sensitive_history_clean_current) ... ok
+test_raw_file_refs_removed_from_all_carriers (test_v71.RequestFlow.test_raw_file_refs_removed_from_all_carriers) ... ok
+test_raw_tool_output_is_still_blocked (test_v71.RequestFlow.test_raw_tool_output_is_still_blocked) ... ok
+test_request_without_inlet (test_v71.RequestFlow.test_request_without_inlet) ... ok
+test_role_and_ids_may_not_change (test_v71.RequestFlow.test_role_and_ids_may_not_change) ... ok
+test_selected_without_access_blocked (test_v71.RequestFlow.test_selected_without_access_blocked) ... ok
+test_sensitive_disabled_is_blocked (test_v71.RequestFlow.test_sensitive_disabled_is_blocked) ... ok
+test_sensitive_enabled_reaches_tool_then_passes_recheck (test_v71.RequestFlow.test_sensitive_enabled_reaches_tool_then_passes_recheck) ... ok
+test_sensitive_history_is_sanitized (test_v71.RequestFlow.test_sensitive_history_is_sanitized) ... ok
+test_tool_failure_does_not_print_sensitive_trace (test_v71.RequestFlow.test_tool_failure_does_not_print_sensitive_trace) ... ok
+test_wrong_tool_id_does_not_bypass (test_v71.RequestFlow.test_wrong_tool_id_does_not_bypass) ... ok
+test_direct_llm_tool_call_rejected (test_v71.ToolErrors.test_direct_llm_tool_call_rejected) ... ok
+test_global_filter_lookup (test_v71.ToolErrors.test_global_filter_lookup) ... ok
+test_invalid_base64 (test_v71.ToolErrors.test_invalid_base64) ... ok
+test_invalid_callback_data_no_leak (test_v71.ToolErrors.test_invalid_callback_data_no_leak) ... ok
+test_short_transfer (test_v71.ToolErrors.test_short_transfer) ... ok
+test_actual_file_read_then_mask_and_original_unchanged (test_v71.UploadedStorage.test_actual_file_read_then_mask_and_original_unchanged) ... ok
+test_ownership_checked_before_storage_read (test_v71.UploadedStorage.test_ownership_checked_before_storage_read) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 0.201s
+
+OK

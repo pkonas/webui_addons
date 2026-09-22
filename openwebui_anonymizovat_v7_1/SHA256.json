@@ -1,0 +1,18 @@
+{
+  "INSTALACE_CS.md": "3ad96f44efdc4ccc0f8ea4a49058bed73b8f1ad89244ffe96db686b54ecc5bb8",
+  "POUZITI_A_OMEZENI_CS.md": "cc0895891f89e1275ee107cbefa39a5f1137afad43f8c85818fede625b65422c",
+  "README_CS.md": "15f240ca106169190b903168bda3dd8b241ebe951e78f0dc3784f31cec0f1791",
+  "anonymizovat_tool.py": "ceb43efc29b4d9dd02d3863e0029ec0138fc6a04f5eb7192f0cde44e43b40cd8",
+  "demo/PRILOHA_CITLIVA.txt": "988f3f63e0b393f56f034d7bc1dbd49239143164a2d95f876059342d150decd3",
+  "demo/PROMPT_CISTY.txt": "a2946ba96316a5089ed7c5166576e799b173de3334c4b2e035bab181631dce78",
+  "demo/PROMPT_CITLIVY.txt": "94b6e54d412d82fadc8896e6bf49c9231696b73f3c5de7733d3c3192da00da42",
+  "dlp_guard_filter.py": "e4cad47489792e47f69a67a3e186bae1b249073ba49866500789fd83f57565c1",
+  "verification/DIALOG_PREDVYPLNENY.png": "f08f9c1f4ee7fbacb221f75d348ef499997d8d1d0e42e2265150e9605c139009",
+  "verification/ROZSAH_OVERENI.md": "250516eadb66782ea49379a1c7e891feaec605846a578599b10aac222ae1dd8c",
+  "verification/browser_report.txt": "0d9890f7f4bf0a48c767d1ec977923e7814dec25ee0bc15a337cc8d0d57d9ecf",
+  "verification/component_report.txt": "444be3970cb7407012774264682740aab5bd047f4d01a3cfce499bea7b16965c",
+  "verification/final_request_example.json": "52171557112abdf1998d38a2288e8539339c14dfc6a7e344f76d427238aba755",
+  "verification/summary.json": "6dbdcd7c2d3c9a668a486baeaafed589b606fcdb6ac5f8df1ed325a1d2fbea87",
+  "verification/test_browser.py": "e9be7cab08319a1767656d0713c089e8a7d6094ad00894c925ddec7425c42e2a",
+  "verification/test_v71.py": "da0bbf888ca8f2298302ca2cb7bb2f5aac3a0c56b27bca642ca941e4f48e4dab"
+}

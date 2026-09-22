@@ -1,0 +1,15 @@
+{
+  "model": "demo",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "E-mail: [[EMAIL_k1_3TAT7R7J7GPBJWGM6O56S3MKTI]]"
+    },
+    {
+      "id": "current",
+      "role": "user",
+      "content": "Shrň případ.\nJméno: [[PERSON_k1_D3P3HHBFGVWXANNHWQHU7VUEZE]]\nE-mail: [[EMAIL_k1_3TAT7R7J7GPBJWGM6O56S3MKTI]]\nTelefon: [[PHONE_k1_R44QXQOC43HEL5YM7OSAUFQQOE]]\n\n--- Příloha 1: očištěná textová reprezentace ---\nShrň případ.\nJméno: [[PERSON_k1_D3P3HHBFGVWXANNHWQHU7VUEZE]]\nE-mail: [[EMAIL_k1_3TAT7R7J7GPBJWGM6O56S3MKTI]]\nTelefon: [[PHONE_k1_R44QXQOC43HEL5YM7OSAUFQQOE]]"
+    }
+  ],
+  "store": false
+}

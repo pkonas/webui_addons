@@ -1,0 +1,20 @@
+{
+  "version": "7.1.0",
+  "target_openwebui": "0.11.3",
+  "protocol": "dlp-workspace/7.1",
+  "component_tests": {
+    "passed": 49,
+    "failed": 0,
+    "report": "component_report.txt"
+  },
+  "chromium_tests": {
+    "passed": 12,
+    "failed": 0,
+    "report": "browser_report.txt"
+  },
+  "live_openwebui_tested": false,
+  "real_llm_called": false,
+  "platforms_verified": false,
+  "python_runtime": "3.13.5",
+  "notes": "Chromium actual; WebUI adapters and provider simulated. Read-only temp TXT check actual. No frontend/server-repo changes."
+}

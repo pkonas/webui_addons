@@ -1,0 +1,6 @@
+Servisní protokol – výhradně smyšlené údaje.
+Shrň servisní případ.
+Jméno: Jan Novák
+E-mail: jan.novak@example.invalid
+Telefon: +420 000 111 222
+Zařízení GW-07 hlásí chybu E-217.

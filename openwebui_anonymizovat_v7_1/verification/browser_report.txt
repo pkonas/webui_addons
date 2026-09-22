@@ -1,0 +1,18 @@
+test_01_sensitive_prefilled_history_and_upload (test_browser.Browser.test_01_sensitive_prefilled_history_and_upload) ... ok
+test_02_cancel_input (test_browser.Browser.test_02_cancel_input) ... ok
+test_03_cancel_review (test_browser.Browser.test_03_cancel_review) ... ok
+test_04_empty_launcher_supported (test_browser.Browser.test_04_empty_launcher_supported) ... ok
+test_05_input_can_be_edited (test_browser.Browser.test_05_input_can_be_edited) ... ok
+test_06_attachment_can_be_excluded (test_browser.Browser.test_06_attachment_can_be_excluded) ... ok
+test_07_foreign_attachment_blocked (test_browser.Browser.test_07_foreign_attachment_blocked) ... ok
+test_08_large_prefill_and_preview_chunked (test_browser.Browser.test_08_large_prefill_and_preview_chunked) ... Executing <Task pending name='Task-90' coro=<Browser.start.<locals>.call() running at /mnt/data/openwebui_anonymizovat_v7_1/verification/test_browser.py:45> wait_for=<Future pending cb=[Task.task_wakeup()] created at /usr/lib/python3.13/asyncio/base_events.py:459> cb=[Task.task_wakeup(), ProtocolCallback.__init__.<locals>.cb() at /opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_connection.py:230] created at /usr/lib/python3.13/asyncio/tasks.py:410> took 0.142 seconds
+ok
+test_09_both_consents_required (test_browser.Browser.test_09_both_consents_required) ... ok
+test_10_unsupported_attachment (test_browser.Browser.test_10_unsupported_attachment) ... ok
+test_11_injected_markup_not_executed (test_browser.Browser.test_11_injected_markup_not_executed) ... ok
+test_12_policy_changed (test_browser.Browser.test_12_policy_changed) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 24.997s
+
+OK
